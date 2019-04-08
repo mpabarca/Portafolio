@@ -64,7 +64,39 @@
 }
 
 /* SKILLS */
+#skills-tittle{
+    font-family: 'Merriweather', serif;
+    color: #7a2828;  
+    font-weight: 900;
+    font-size: 102px;
+}
+#skills-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+#skillsLanguage{
+    background:#7a2828;
+    border: none;
+    border-radius: 0;
+    font-family: 'Merriweather', serif;
+    font-weight:600;
+    height: auto;
+    margin-top: 10%;
+}
 
+#skillsText{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+#skillsGroupIcon{
+    margin-top: 5%;
+}
+#skillsM{
+    width: 80px;
+    height: auto;
+}
 /* PROJECTS */
 
 /* CONTACT */
