@@ -1,0 +1,22 @@
+{
+  "name": "portafolio-vanillajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpabarca/Portafolio-VanillaJS.git"
+  },
+  "author": "María Paz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpabarca/Portafolio-VanillaJS/issues"
+  },
+  "homepage": "https://github.com/mpabarca/Portafolio-VanillaJS#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0"
+  }
+}
