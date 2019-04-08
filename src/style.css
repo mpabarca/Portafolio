@@ -1,5 +1,6 @@
 /* GLOBALES */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 * {
     box-sizing: border-box;
 }
@@ -184,8 +185,6 @@ nav ul li a{
     display:none;
 }
 
-
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
 /* HOME */
 #home{
     background: #7a2828;  
@@ -222,20 +221,25 @@ nav ul li a{
 }
 
 /* ABOUT */
-#about-tittle{
+.tittle{
     font-family: 'Merriweather', serif;
     color: #7a2828;  
     font-weight: 900;
     font-size: 102px;
+    margin-bottom:5%;
 }
-#aboutButton {
+.buttonLanguage {
     background:#7a2828;
     border: none;
     border-radius: 0;
     font-family: 'Merriweather', serif;
+    font-size: 20px;
     font-weight:600;
-    height: auto;
+    width: 45px;
+    height: 45px;
     margin-top: 10%;
+    margin-right:5%;
+    color: #fff;
 }
 
 #aboutText{
@@ -243,17 +247,12 @@ nav ul li a{
     font-size: 20px;
 }
 #img-about{
-    width: 500px;
-    height: 615px;
+    width: 70%;
+    height: auto;
+    transform: translateY(-5%);
 }
 
 /* SKILLS */
-#skills-tittle{
-    font-family: 'Merriweather', serif;
-    color: #7a2828;  
-    font-weight: 900;
-    font-size: 102px;
-}
 #skills-text{
     font-weight: 300;
     font-size: 20px;
