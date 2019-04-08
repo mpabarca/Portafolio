@@ -1,0 +1,70 @@
+/* HOME */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+#home{
+    background: #7a2828;  
+    height: 100vh;
+    max-width: 100%;
+}
+#home-container{
+    margin: 0 auto;
+    padding-left: 15%;
+    padding-top:8%;
+}
+#home-iam, #home-name, #home-rol{
+    color: #fff;
+}
+#home-iam, #home-rol{
+    font-family: 'Roboto', sans-serif;
+}
+#home-iam{
+    font-size:25px;
+    font-weight: 300;
+}
+#home-rol{
+    font-size:15px;
+    font-weight: 300;
+}
+#home-name{
+    font-family: 'Merriweather', serif;
+    font-size: 145px;
+    font-weight: 1000;
+}
+#home-button{
+    background: #fff;
+    color: #7a2828;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+}
+
+/* ABOUT */
+#about-tittle{
+    font-family: 'Merriweather', serif;
+    color: #7a2828;  
+    font-weight: 900;
+    font-size: 102px;
+}
+#aboutButton {
+    background:#7a2828;
+    border: none;
+    border-radius: 0;
+    font-family: 'Merriweather', serif;
+    font-weight:600;
+    height: auto;
+    margin-top: 10%;
+}
+
+#aboutText{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* SKILLS */
+
+/* PROJECTS */
+
+/* CONTACT */
