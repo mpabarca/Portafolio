@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     </head>
     <body>
-        <div class="container">
+        <div id="navbar">
             <nav>
                 <input type="checkbox" id="nav" class="hidden">
                 <label for="nav" class="nav-btn">
@@ -33,17 +33,17 @@
                 </div>
             </nav>
         </div>
-        <div id="home">
+        <section id="home" class="container">
             <div id="home-container">
                 <div id="home-iam">I am</div>
                 <div id="home-name"><img src="./img/name.png"></img></div>
                 <div id="home-rol">A junior Front-End development</div>
                 <div><Button id="home-button">  CONTACT ME  <i class="far fa-envelope"></i>  </Button></div>
             </div>
-        </div>
-        <div id="about">
-            <div><img src="./img/about.png"></img></div>
-            <div>
+        </section>
+        <section id="about" class="container">
+            <div class="col-6"><img id="img-about" src="./img/about.png"></img></div>
+            <div class="col-6">
                 <div id="about-tittle">about Me</div>
                 <div id=aboutText>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna 
@@ -59,8 +59,8 @@
                     <button class="buttonLanguage">En'</button>
                 </div>
             </div>
-        </div>
-        <div id="skills">
+        </section>
+        <section id="skills" class="container">
             <div>
                 <div id="skills-tittle">skills</div>
                 <div id="skillsText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -78,34 +78,43 @@
                 </div>
             </div>
             <div id="skillsGroupIcon">
-                <div>
-                    <div><i class="devicon-html5-plain-wordmark" style="font-size:500%"></i></div>
-                    <div><i class="devicon-javascript-plain" style="font-size:500%"></i></div>
-                    <div><i class="devicon-react-original-wordmark" style="font-size:500%"></i></div>
-                    <div><i class="devicon-python-plain-wordmark" style="font-size:500%"></i></div>
-                </div>
-                <br/>
-                <div>
-                    <div><i class="devicon-css3-plain-wordmark" style="font-size:500%"></i></div>
-                    <div><i class="devicon-bootstrap-plain-wordmark" style="font-size:500%"></i></div>
-                    <div><img id="skillsM" src="img/materialize.png" style="font-size:500%"></img></div>
-                </div>
-                <br/>
-                <div>
-                    <div><i class="devicon-git-plain-wordmark" style="font-size:500%"></i></div>
-                    <div><i class="devicon-github-plain-wordmark" style="font-size:500%"></i></div>
-                    <div><i class="devicon-nodejs-plain-wordmark" style="font-size:500%"></i></div>
-                </div>
-                <br/>
-                <div>
-                    <div><i class="devicon-ubuntu-plain-wordmark" style="font-size:500%"></i></div>
-                    <div><i class="devicon-visualstudio-plain-wordmark" style="font-size:500%"></i></div>
-                    <div><i class="devicon-trello-plain-wordmark" style="font-size:500%"></i></div>
-                </div>
+                <div><i class="devicon-html5-plain-wordmark" style="font-size:500%"></i></div>
+                <div><i class="devicon-javascript-plain" style="font-size:500%"></i></div>
+                <div><i class="devicon-react-original-wordmark" style="font-size:500%"></i></div>
+                <div><i class="devicon-python-plain-wordmark" style="font-size:500%"></i></div>
+                <div><i class="devicon-css3-plain-wordmark" style="font-size:500%"></i></div>
+                <div><i class="devicon-bootstrap-plain-wordmark" style="font-size:500%"></i></div>
+                <div><img id="skillsM" src="img/materialize.png" style="font-size:500%"></img></div>
+                <div><i class="devicon-git-plain-wordmark" style="font-size:500%"></i></div>
+                <div><i class="devicon-github-plain-wordmark" style="font-size:500%"></i></div>
+                <div><i class="devicon-nodejs-plain-wordmark" style="font-size:500%"></i></div>
+                <div><i class="devicon-ubuntu-plain-wordmark" style="font-size:500%"></i></div>
+                <div><i class="devicon-visualstudio-plain-wordmark" style="font-size:500%"></i></div>
+                <div><i class="devicon-trello-plain-wordmark" style="font-size:500%"></i></div>
             </div>
-        </div>
-        <div id="projects"></div>
-        <div id="contact">
+        </section>
+        <section id="projects" class="container">
+            <ul>
+                <li>
+                    <input type="radio" name="slide">
+                    <div class="slide">
+                        <img src="./img/slide1.jpg">
+                        <div class="content">
+                            <h2>Slide One</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Duis aute irure dolor in reprehenderit in voluptate velit 
+                                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                                    occaecat cupidatat non proident, sunt in culpa qui officia 
+                                    deserunt mollit anim id est laborum</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="contact" class="container">
             <div>
                 <a target="blank" href="https://www.instagram.com/pacita_tua/"><i class="fab fa-instagram"></i></a>
                 <a target="blank" href="https://www.facebook.com/pazhydivd"><i class="fab fa-facebook-f"></i></a>
@@ -114,7 +123,7 @@
             </div>
             <div>mpabarca@uc.cl</div>
             <a target="blank" href="https://github.com/mpabarca/Portafolio-VanillaJS">Repositorio portafolio</a>
-        </div>
+        </section>
         
         <script src="main.js"></script>
     </body>
