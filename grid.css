@@ -1,10 +1,10 @@
 /* Estilos globales */
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 5%;
+    padding-top: 10%;
+    padding-bottom: 0;
+    height: 100%;
     position: relative;
     overflow: hidden;
 }
