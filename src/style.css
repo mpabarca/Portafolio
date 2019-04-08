@@ -196,28 +196,32 @@ nav ul li a{
     padding-left: 15%;
     padding-top:8%;
 }
-#home-iam, #home-name, #home-rol{
+#home-iam, #home-rol{
     color: #fff;
 }
 #home-iam{
     font-size:25px;
     font-weight: 300;
+    position: absolute;
+    transform: translateY(20%);
 }
 #home-rol{
     font-size:15px;
     font-weight: 300;
 }
-#home-name{
-    font-family: 'Merriweather', serif;
-    font-size: 145px;
-    font-weight: 1000;
-}
 #home-button{
     background: #fff;
     color: #7a2828;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 15px;
     border: none;
+    width: 150px;
+    height: 35px;
+    margin-top: 2%;
+}
+#img-name{
+    width: 70%;
+    height: auto;
 }
 
 /* ABOUT */
@@ -271,11 +275,20 @@ nav ul li a{
     font-size: 20px;
 }
 #skillsGroupIcon{
-    margin-top: 5%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    max-width: 620px;
+    justify-content: center;
+    align-content: space-around;
 }
 #skillsM{
     width: 80px;
     height: auto;
+}
+.icon-group{
+    margin-bottom: 8%;
 }
 /* PROJECTS */
 #projects ul{
