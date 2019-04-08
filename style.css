@@ -35,6 +35,7 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 20px;
+
 }
 nav ul li:not(:first-child){
     margin-left: 48px; 
@@ -241,6 +242,10 @@ nav ul li a{
     font-weight: 300;
     font-size: 20px;
 }
+#img-about{
+    width: 500px;
+    height: 615px;
+}
 
 /* SKILLS */
 #skills-tittle{
@@ -262,7 +267,6 @@ nav ul li a{
     height: auto;
     margin-top: 10%;
 }
-
 #skillsText{
     font-weight: 300;
     font-size: 20px;
@@ -275,5 +279,37 @@ nav ul li a{
     height: auto;
 }
 /* PROJECTS */
+#projects ul{
+    margin:0;
+    padding:0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#projects img{
+    max-width: 100%;
+    height: auto;
+}
+#projects ul li{
+    list-style: none;
+}
+#projects ul li .slide{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s;
+    transform: rotateY(0deg);
+    transform-origin: left;
+}
+#projects ul li input [type="radio"]{
+    position: relative;
+    z-index: 1;
+    height: 20px;
+    width:20px;
+}
 
 /* CONTACT */
