@@ -2,6 +2,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
+.section, .section-home{
+    position: absolute;
+    left: 49%;
+    font-size: 30px;
+}
+.section-home{
+    color: #fff;
+    bottom: 5%;;
+}
+.section{
+    color:#7a2828;
+    bottom: 0;
+}
+
 /* NAVBAR*/
 .logo{
     float:left;
@@ -276,7 +290,7 @@ nav ul li a{
     margin-bottom: 8%;
 }
 /* PROJECTS */
-#projects{
+#projects-cards{
     display: flex;
     flex-direction: row ;
     flex-wrap: wrap;
