@@ -1,22 +1,7 @@
 /* GLOBALES */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
-* {
-    box-sizing: border-box;
-}
-html{
-    margin:0;
-    padding:0;
-    width: 100%;
-    height: 100vh;
-}
-body{
-    margin:0;
-    padding:0;
-    width: 100%;
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
-}
+
 /* NAVBAR*/
 .logo{
     float:left;
@@ -229,8 +214,8 @@ nav ul li a{
     font-family: 'Merriweather', serif;
     color: #7a2828;  
     font-weight: 900;
-    font-size: 102px;
-    margin-bottom:5%;
+    font-size: 350%;
+    margin-bottom:3%;
 }
 .buttonLanguage {
     background:#7a2828;
@@ -291,37 +276,67 @@ nav ul li a{
     margin-bottom: 8%;
 }
 /* PROJECTS */
-#projects ul{
-    margin:0;
-    padding:0;
-    position: relative;
-    width: 100%;
-    height: 100%;
+#projects{
     display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-end;
+    align-content: space-around;
 }
-#projects img{
-    max-width: 100%;
-    height: auto;
+.card-middle{
+    width: 30%;
+    overflow: hidden;
+    box-shadow: 0 0 20px #00000070;
+    margin-right: 1%;
+    height: 10%;
+    max-height: 390px;
 }
-#projects ul li{
-    list-style: none;
-}
-#projects ul li .slide{
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    transition: transform 0.5s;
-    transform: rotateY(0deg);
-    transform-origin: left;
-}
-#projects ul li input [type="radio"]{
+.top-section{
     position: relative;
-    z-index: 1;
-    height: 20px;
-    width:20px;
 }
+.top-section img{
+    width: 100%;
+    height: 180px;
+}
+.info-section{
+    padding: 40px;
+    padding-top: 0;
+    padding-bottom: 1%;
+    color: #333;
+}
+#projects h2{
+    position: relative;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.border{
+    width: 30px;
+    height: 3px;
+    background: #778beb;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+#projects p{
+    text-align: justify;
+    font-size: 14px;
+}
+.s-m{
+    text-align: center;
+    margin-top:20px;
+}
+.s-m a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    padding: 0 14px;
+    transition: .4s;
+}
+.s-m a:hover{
+    color:#7a2828;
+    transform: translateY(-10px);
+}
+
+
 
 /* CONTACT */
