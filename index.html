@@ -26,24 +26,24 @@
                     
                     <div class="nav-wrapper">
                         <div class="logo"><img src="./img/logo.png"></div>
-                        <div id="content-line"><hr id="line-hor"></div>
-                        <ul>
-                            <li><a class= "cool-link" href="#home">HOME</a></li>
-                            <li><a class= "cool-link" href="#about">ABOUT</a></li>
-                            <li><a class= "cool-link" href="#skills">SKILLS</a></li>
-                            <li><a class= "cool-link" href="#projects">PROJECTS</a></li>
-                            <li><a class= "cool-link" href="#contact">CONTACT</a></li>
-                        </ul>
                         <div id="content-line"><hr id="line-ver"></div>
+                        <ul>
+                            <li><a class= "cool-link" href="#home">INICIO</a></li>
+                            <li><a class= "cool-link" href="#about">SOBRE MI</a></li>
+                            <li><a class= "cool-link" href="#skills">HABILIDADES</a></li>
+                            <li><a class= "cool-link" href="#projects">PROJECTOS</a></li>
+                            <li><a class= "cool-link" href="#contact">CONTACTO</a></li>
+                        </ul>
+                        <div id="content-line"><hr id="line-hor"></div>
                     </div>
                 </nav>
             </div>
 
             <div id="home-container">
-                <div id="home-iam">I am</div>
+                <div id="home-iam">Yo soy</div>
                 <div ><img id="img-name" src="./img/name.png"></img></div>
-                <div id="home-rol">A junior Front-End development</div>
-                <div><button id="home-button">  CONTACT ME  <i class="far fa-envelope"></i></button></div>
+                <div id="home-rol">Junior Front-End development</div>
+                <a href="#contact"><button id="home-button">  CONTÁCTAME  <i class="far fa-envelope"></i></button></a>
             </div>
             <a class="section-home"href="#about"><i class="fas fa-chevron-down"></i></a>
         </section>
@@ -52,7 +52,7 @@
             <a class="up" href="#home"><i class="fas fa-chevron-up"></i></a>
             <div class="col-6"><img id="img-about" src="./img/about.png"></img></div>
             <div class="col-6">
-                <div class="tittle">about Me</div>
+                <div class="tittle">sobre Mi</div>
                 <div id=aboutText>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna 
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -73,7 +73,7 @@
         <section id="skills" class="container">
                 <a class="up" href="#about"><i class="fas fa-chevron-up"></i></a>
             <div class="col-6">
-                <div class="tittle">skills</div>
+                <div class="tittle">habilidades</div>
                 <div id="skillsText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna 
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -106,7 +106,7 @@
         
         <section id="projects" class="container">
             <a class="up" href="#skills"><i class="fas fa-chevron-up"></i></a>
-            <div id="projects-tittle" class="tittle">projects</div>
+            <div id="projects-tittle" class="tittle">projectos</div>
             <div id="projects-cards">
                 <div class="card-middle">
                     <div class="top-section">
@@ -178,16 +178,19 @@
             <a class="down" href="#contact"><i class="fas fa-chevron-down"></i></a>
         </section>      
              
-        <section id="contact" class="container">
+        <section id="contact" class="container-contact">
             <a class="up" href="#projects"><i class="fas fa-chevron-up"></i></a>
-            <div>
-                <a target="blank" href="https://www.instagram.com/pacita_tua/"><i class="fab fa-instagram"></i></a>
-                <a target="blank" href="https://www.facebook.com/pazhydivd"><i class="fab fa-facebook-f"></i></a>
-                <a><i class="fab fa-linkedin-in"></i></a>
-                <a target="blank" href="https://github.com/mpabarca"><i class="fab fa-github"></i></a>
+            <img class="col-6" src="./img/contact1.jpg" id="img-contact2">
+            <div id="contact-text" class="col-6">
+                <div id="contact-tittle"><span>contáctame</span></div>
+                <div class="s-m">
+                    <a target="blank" href="https://www.instagram.com/pacita_tua/"><i class="fab fa-instagram"></i></a>
+                    <a target="blank" href="https://www.facebook.com/pazhydivd"><i class="fab fa-facebook-f"></i></a>
+                    <a><i class="fab fa-linkedin-in"></i></a>
+                    <a target="blank" href="https://github.com/mpabarca"><i class="fab fa-github"></i></a>
+                </div>
+                <div id="contact-email">mpabarca@uc.cl</div>
             </div>
-            <div>mpabarca@uc.cl</div>
-            <a target="blank" href="https://github.com/mpabarca/Portafolio-VanillaJS">Repositorio portafolio</a>
         </section>
         
         <script src="main.js"></script>
