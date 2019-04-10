@@ -24,6 +24,16 @@ body{
     position: relative;
     overflow: hidden;
 }
+.container-home{
+    width: 100%;
+    padding-right: 1%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 0;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
 
 [class*="col-"] {
     min-height: 7px;
