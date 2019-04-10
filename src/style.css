@@ -220,8 +220,10 @@ nav ul li a{
     color: #fff;
 }
 #home-iam{
-    font-size:25px;
+    font-size:140%;
     font-weight: 300;
+    position: absolute;
+    transform: translateY(20%);
 }
 #home-rol{
     font-size:15px;
