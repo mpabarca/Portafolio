@@ -13,29 +13,32 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     </head>
     <body>
-        <div id="navbar">
-            <nav>
-                <input type="checkbox" id="nav" class="hidden">
-                <label for="nav" class="nav-btn">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </label>
-                
-                <div class="nav-wrapper">
-                    <div class="logo">LOGO</div>
-                    <ul>
-                        <li><a class= "cool-link" href="#home">HOME</a></li>
-                        <li><a class= "cool-link" href="#about">ABOUT</a></li>
-                        <li><a class= "cool-link" href="#skills">SKILLS</a></li>
-                        <li><a class= "cool-link" href="#projects">PROJECTS</a></li>
-                        <li><a class= "cool-link" href="#contact">CONTACT</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
 
-        <section id="home" class="container">
+        <section id="home" class="container-home">
+            <div id="navbar">
+                <nav>
+                    <input type="checkbox" id="nav" class="hidden">
+                    <label for="nav" class="nav-btn">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </label>
+                    
+                    <div class="nav-wrapper">
+                        <div class="logo"><img src="./img/logo.png"></div>
+                        <div id="content-line"><hr id="line-hor"></div>
+                        <ul>
+                            <li><a class= "cool-link" href="#home">HOME</a></li>
+                            <li><a class= "cool-link" href="#about">ABOUT</a></li>
+                            <li><a class= "cool-link" href="#skills">SKILLS</a></li>
+                            <li><a class= "cool-link" href="#projects">PROJECTS</a></li>
+                            <li><a class= "cool-link" href="#contact">CONTACT</a></li>
+                        </ul>
+                        <div id="content-line"><hr id="line-ver"></div>
+                    </div>
+                </nav>
+            </div>
+
             <div id="home-container">
                 <div id="home-iam">I am</div>
                 <div ><img id="img-name" src="./img/name.png"></img></div>
@@ -46,6 +49,7 @@
         </section>
 
         <section id="about" class="container">
+            <a class="up" href="#home"><i class="fas fa-chevron-up"></i></a>
             <div class="col-6"><img id="img-about" src="./img/about.png"></img></div>
             <div class="col-6">
                 <div class="tittle">about Me</div>
@@ -63,10 +67,11 @@
                     <button class="buttonLanguage">En'</button>
                 </div>
             </div>
-            <a class="section"href="#skills"><i class="fas fa-chevron-down"></i></a>
+            <a class="down" href="#skills"><i class="fas fa-chevron-down"></i></a>
         </section>
 
         <section id="skills" class="container">
+                <a class="up" href="#about"><i class="fas fa-chevron-up"></i></a>
             <div class="col-6">
                 <div class="tittle">skills</div>
                 <div id="skillsText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -84,7 +89,7 @@
                 </div>
             </div>
             <div id="skillsGroupIcon" class="col-6">
-                <div class="icon-group"><i class="devicon-html5-plain-wordmark" style="font-size:500%"></i></div>
+                <div class="icon-group"><i class="devicon-html5-plain-wordmark" style="font-size:600%"></i></div>
                 <div class="icon-group"><i class="devicon-javascript-plain" style="font-size:500%"></i></div>
                 <div class="icon-group"><i class="devicon-css3-plain-wordmark" style="font-size:500%"></i></div>
                 <div class="icon-group"><i class="devicon-bootstrap-plain-wordmark" style="font-size:500%"></i></div>
@@ -96,10 +101,11 @@
                 <div class="icon-group"><i class="devicon-nodejs-plain-wordmark" style="font-size:500%"></i></div>
                 <div class="icon-group"><i class="devicon-ubuntu-plain-wordmark" style="font-size:500%"></i></div>
             </div>
-            <a class="section"href="#projects"><i class="fas fa-chevron-down"></i></a>
+            <a class="down" href="#projects"><i class="fas fa-chevron-down"></i></a>
         </section>
         
         <section id="projects" class="container">
+            <a class="up" href="#skills"><i class="fas fa-chevron-up"></i></a>
             <div id="projects-tittle" class="tittle">projects</div>
             <div id="projects-cards">
                 <div class="card-middle">
@@ -169,10 +175,11 @@
                     </div>
                 </div>
             </div>
-            <a class="section"href="#contact"><i class="fas fa-chevron-down"></i></a>
+            <a class="down" href="#contact"><i class="fas fa-chevron-down"></i></a>
         </section>      
              
         <section id="contact" class="container">
+            <a class="up" href="#projects"><i class="fas fa-chevron-up"></i></a>
             <div>
                 <a target="blank" href="https://www.instagram.com/pacita_tua/"><i class="fab fa-instagram"></i></a>
                 <a target="blank" href="https://www.facebook.com/pazhydivd"><i class="fab fa-facebook-f"></i></a>
