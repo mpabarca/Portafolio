@@ -33,13 +33,14 @@
     display: flex;
     align-content: center;
 }
-#line-ver{
+#line-hor{
     color: #fff;
     width:500%;
     transform: translateY(20px);
 
 }
-#line-hor{
+#line-ver{
+    display: none;
     color: #fff;
     width:52%;
     transform: translateX(103%) rotate(90deg) ;
@@ -75,7 +76,7 @@ nav ul li a{
     display: block;
     width:0;
     height: 2px;
-    background: #000;
+    background: #fff;
     transition: width 0.3s
 
 }
@@ -87,7 +88,7 @@ nav ul li a{
 }
 
 @media screen and (max-width:864px){
-    #line{
+    #line-ver, #line-hor{
         display: none;
     }
     .logo{
@@ -246,7 +247,7 @@ nav ul li a{
     font-family: 'Merriweather', serif;
     color: #7a2828;  
     font-weight: 900;
-    font-size: 350%;
+    font-size: 500%;
     margin-bottom:3%;
 }
 .buttonLanguage {
@@ -296,7 +297,7 @@ nav ul li a{
     display: flex;
     flex-direction: row ;
     flex-wrap: wrap;
-    max-width: 620px;
+    max-width: 550px;
     justify-content: center;
     align-content: space-around;
 }
@@ -306,6 +307,7 @@ nav ul li a{
 }
 .icon-group{
     margin-bottom: 8%;
+    margin-left: 5%;
 }
 /* PROJECTS */
 #projects-cards{
@@ -372,3 +374,30 @@ nav ul li a{
 
 
 /* CONTACT */
+#img-contact2{
+    width: auto;
+    height: 100%;
+    position: relative;
+    float: left;
+    bottom: 0;
+}
+#contact-tittle{
+    color: #7a2828;
+    font-size: 400%;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    margin-bottom: 10%;
+}
+#contact-text{
+    margin-top: 15%;
+}
+#contact-email{
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-bottom: 8%;
+    font-size: 200%;
+}
+#contact .s-m a{
+    font-size: 250%;
+    margin-left: 5%;
+}
