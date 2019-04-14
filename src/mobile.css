@@ -5,7 +5,7 @@
     .logo{
         padding:0;
     }
-    .nav-wrapper{
+    .nav-wrap{
         position:fixed;
         top:0;
         left:0;
@@ -16,38 +16,38 @@
         opacity:0;
         transition: all 0.2s ease;
     }
-    .nav-wrapper ul{
+    .nav-wrap ul{
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
         width:100%;
     }
-    .nav-wrapper ul li{
+    .nav-wrap ul li{
         display:block;
         float: none;
         width:100%;
         text-align:right;
         margin-bottom:10px;
     }
-    .nav-wrapper ul li:nth-child(1) a{
+    .nav-wrap ul li:nth-child(1) a{
         transition-delay:0.1s;
     }
-    .nav-wrapper ul li:nth-child(2) a{
+    .nav-wrap ul li:nth-child(2) a{
         transition-delay:0.2s;
     }
-    .nav-wrapper ul li:nth-child(3) a{
+    .nav-wrap ul li:nth-child(3) a{
         transition-delay:0.3s;
     }
-    .nav-wrapper ul li:nth-child(4) a{
+    .nav-wrap ul li:nth-child(4) a{
         transition-delay:0.4s;
     }
-    .nav-wrapper ul li:nth-child(5) a{
+    .nav-wrap ul li:nth-child(5) a{
         transition-delay:0.5s;
     }
-    .nav-wrapper ul li:not(:first-child){
+    .nav-wrap ul li:not(:first-child){
         margin-left:0;
     }
-    .nav-wrapper ul li a{
+    .nav-wrap ul li a{
         padding: 10px 24px;
         opacity:0;
         color:#000;
@@ -57,7 +57,7 @@
         transform: translateX(-20px);
         transition: all 0.2s ease;
     }
-    .nav-btn {
+    .nav-button{
         position:fixed;
         right: 10px;
         top: 10px;
@@ -68,7 +68,7 @@
         z-index: 9999;
         border-radius: 50%;
     }
-    .nav-btn i{
+    .nav-button i{
         display: block;
         width: 20px;
         height: 2px;
@@ -76,14 +76,14 @@
         border-radius: 2px;
         margin-left: 14px;
     }
-    .nav-btn i:nth-child(1){
+    .nav-button i:nth-child(1){
         margin-top: 16px;
     }
-    .nav-btn i:nth-child(2){
+    .nav-button i:nth-child(2){
         margin-top: 4px;
         opacity: 1;
     }
-    .nav-btn i:nth-child(3){
+    .nav-button i:nth-child(3){
         margin-top: 4px;
     }
 
