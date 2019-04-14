@@ -88,27 +88,27 @@ nav ul li a{
 }
 
 
-#nav:checked + .nav-btn{
+#nav:checked + .nav-button{
     transform:rotate(45deg);
 }
-#nav:checked + .nav-btn i{
+#nav:checked + .nav-button i{
     background: #000;
     transition: transform 0.2s ease;
 }
-#nav:checked + .nav-btn i:nth-child(1){
+#nav:checked + .nav-button i:nth-child(1){
     transform: translateY(6px) rotate(180deg);
 }
-#nav:checked + .nav-btn i:nth-child(2){
+#nav:checked + .nav-button i:nth-child(2){
     opacity: 0;
 }
-#nav:checked + .nav-btn i:nth-child(3){
+#nav:checked + .nav-button i:nth-child(3){
     transform: translateY(-6px) rotate(90deg);
 } 
-#nav:checked ~ .nav-wrapper{
+#nav:checked ~ .nav-wrap{
     z-index: 9990;
     opacity: 1;
 }
-#nav:checked ~ .nav-wrapper ul li a{
+#nav:checked ~ .nav-wrap ul li a{
     opacity:1;
     transform: translateX(0);
 }
