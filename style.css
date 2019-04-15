@@ -46,24 +46,24 @@
     transform: translateX(103%) rotate(90deg) ;
     
 }
-nav ul{
+.nav ul{
     float:left;
 }
-nav ul li{
+.nav ul li{
     display: inline-block;
     margin-right: 20px;
 
 }
-nav ul li:not(:first-child){
+.nav ul li:not(:first-child){
     margin-left: 48px; 
 }
-nav ul li:last-child{
+.nav ul li:last-child{
     margin-right: 48px;
 }
-nav ul li:last-child{
+.nav ul li:last-child{
     margin-right: 24px;
 }
-nav ul li a{
+.nav ul li a{
     display: inline-block;
     outline: none;
     color: #fff;
