@@ -87,7 +87,6 @@
     transition: width 0.3;
 }
 
-
 #nav:checked + .nav-button{
     transform:rotate(45deg);
 }
@@ -125,7 +124,17 @@
 #home-container{
     margin: 0 auto;
     margin-left: 18%;
-    margin-top:15%;
+    margin-top: 250px;
+}
+.container-home{
+    width: 100%;
+    padding-right: 1%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 0;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
 }
 #home-iam, #home-rol{
     color: #fff;
@@ -150,11 +159,17 @@
     height: 35px;
     margin-top: 2%;
 }
+#home-icon{
+    margin-left: 8px;
+}
 #img-name{
     width: 70%;
     height: auto;
 }
-
+#home-button:hover{
+    background: #7a2828;
+    color:#fff;
+}
 /* ABOUT */
 .tittle{
     font-family: 'Merriweather', serif;
@@ -222,13 +237,20 @@
     margin-bottom: 8%;
     margin-left: 5%;
 }
-/* PROJECTS */
+/* PROJECTS 
 #projects-cards{
     display: flex;
     flex-direction: row ;
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-around;
+}*/
+.carousel{
+    height: 80%;
+    transform: translateY(-96px);
+}
+.carousel-item{
+    width: 300px;
 }
 .card-middle{
     width: 30%;
