@@ -43,6 +43,7 @@
     .text{
         font-size: 100%;
     }
+    /* Skills */
     #skillsGroupIcon{
         margin-top: 5%;
     }
@@ -52,6 +53,13 @@
     #skills .col-6{
         width: 100%;
     }
+    #skillsGroupIcon{
+        margin-top: 15%;
+    }
+    .icon-group{
+        transform: translateX(-30px);
+    }
+    /* Projects */
 }
 
 /* Tablets */
