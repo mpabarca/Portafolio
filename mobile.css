@@ -1,5 +1,8 @@
 /* Mobile */
 @media only screen and (max-width:767px){
+    .section-home{
+        bottom: 20px;
+    }
     /* Home */
     #home-iam{
         transform: translateY(-80%);
@@ -10,6 +13,7 @@
     }
     #home-container{
         margin-left: 1%;
+        margin-top: 180px;
     }
     .home-element{
         margin-top: 5%;
