@@ -51,6 +51,23 @@
         transform: translateY(1%);
     }
 }
-@media only screen and (min-width:992px){
+@media only screen and (min-width:1500px){
+    .container{
+        padding-left: 0%;
+    }
+    #about{
+        top: 10%;
+    }
+    .tittle{
+        font-size: 700%;
+    }
+    .text{
+        font-size: 25px;
+    }
+    #img-about1{
+        width: 100%;
+        height: auto;
+        transform: translateX(-12%) translateY(-10%);
+    }
 
 }
