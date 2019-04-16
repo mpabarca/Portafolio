@@ -66,6 +66,7 @@
     font-weight: 300;
 }
 #home-button{
+    font-family: 'Roboto', sans-serif;
     background: #fff;
     color: #7a2828;
     font-weight: 600;
@@ -83,10 +84,13 @@
     height: auto;
 }
 #home-button:hover{
-    background: #7a2828;
+    background: #AD0E46;
     color:#fff;
 }
 /* ABOUT */
+#about{
+    top: 15%;
+}
 .tittle{
     font-family: 'Merriweather', serif;
     color: #7a2828;  
@@ -108,21 +112,20 @@
     color: #fff;
 }
 
-#aboutText{
+.text{
     font-weight: 300;
     font-size: 20px;
 }
-#img-about{
+#img-about1{
     width: 70%;
     height: auto;
     transform: translateY(-5%);
 }
+#img-about2{
+    display: none;
+}
 
 /* SKILLS */
-#skills-text{
-    font-weight: 300;
-    font-size: 20px;
-}
 #skillsLanguage{
     background:#7a2828;
     border: none;

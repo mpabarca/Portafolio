@@ -1,5 +1,5 @@
 /* Mobile */
-@media only screen and (max-width:767px){
+@media only screen and (max-width:768px){
     .down, .section-home, .up{
         bottom: 45px;
     }
@@ -20,17 +20,37 @@
     #home-iam, #home-rol, #home-button{
         margin-left: 5%;
     }
-    
+    /* About */
+    #about-content #img-about2{
+        display: block;
+        width: 60%;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+    #img-about1{
+        display: none;
+    }
+    #about #about-content{
+        width: 90%;
+    }
+    #about{
+        top: 2%;
+    }
+    .tittle{
+        font-size: 300%;
+    }
+    .text{
+        font-size: 120%;
+    }
 }
 
 /* Tablets */
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:769px) {
     #home-iam{
         transform: translateY(1%);
     }
 }
-
-/* Desktops y Laptops en general */
-@media only screen and (min-width: 1500px){
+@media only screen and (min-width:992px){
 
 }
