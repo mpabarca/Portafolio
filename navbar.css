@@ -9,7 +9,7 @@
     margin-top: 8px;
     transform: translateY(-35%);
 }
-#content-line{
+.content-line{
     position: relative;
     display: flex;
     align-content: center;
@@ -19,34 +19,6 @@
     color: #fff;
     width:500%;
     transform: translateY(20px);
-
-}
-#line-ver{
-    position: absolute;   
-    color: #fff;
-    width:40%;
-    top: 200%;                   
-    left: 84%;
-    transform: rotate(90deg);
-    
-}
-#home .s-m{
-    display: flex;
-    float: right;
-    position: absolute;   
-    top: 80%;                   
-    left: 95%;
-    flex-direction: column-reverse;
-    text-align: center;
-    margin-top:20px;
-}
-#home .s-m a{
-    bottom: 0;
-    color: #fff;
-    transition: .4s;
-}
-#home .s-m a:hover{
-    transform: translateY(-10px);
 }
 .nav ul{
     float:left;
@@ -55,7 +27,6 @@
     display: inline-block;
     margin-right: 10px;
     max-width: 50%;
-
 }
 .nav ul li:not(:first-child){
     margin-left: 10px; 
