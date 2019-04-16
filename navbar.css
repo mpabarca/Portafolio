@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 /* Navbar */
 .logo{
@@ -31,23 +33,21 @@
 .nav ul li{
     display: inline-block;
     margin-right: 20px;
+    max-width: 50%;
 
 }
 .nav ul li:not(:first-child){
-    margin-left: 48px; 
+    margin-left: 20px; 
 }
 .nav ul li:last-child{
-    margin-right: 48px;
-}
-.nav ul li:last-child{
-    margin-right: 24px;
+    margin-right: 20px;
 }
 .nav ul li a{
     display: inline-block;
     outline: none;
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
 }
 .cool-link::after {
