@@ -1,19 +1,15 @@
 /* Mobile */
 @media only screen and (max-width:767px){
     .section-home{
-        bottom: 20px;
+        bottom: 30px;
     }
     /* Home */
     #home-iam{
         transform: translateY(-80%);
     }
     #img-name{
-        width: 100%;
+        width: 80%;
         height: auto;
-    }
-    #home-container{
-        margin-left: 1%;
-        margin-top: 180px;
     }
     .home-element{
         margin-top: 5%;
@@ -36,8 +32,5 @@
 
 /* Desktops y Laptops en general */
 @media only screen and (min-width: 1500px){
-    #home-container{
-        margin-top: 350px;
-    }
 
 }
