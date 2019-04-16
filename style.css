@@ -152,10 +152,12 @@
 #skillsM{
     width: 80px;
     height: auto;
+    margin-top: 20px;
 }
 .icon-group{
     margin-bottom: 8%;
     margin-left: 5%;
+    transform: translateY(-100px);
 }
 /* PROJECTS 
 #projects-cards{
