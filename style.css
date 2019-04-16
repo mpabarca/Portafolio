@@ -27,9 +27,9 @@
 
 /* HOME */
 #home{
-    background: radial-gradient(circle cover, #AD0E46, #2E0E19);
-    background: -webkit-radial-gradient(circle cover, #AD0E46, #2E0E19);
-    background: -moz-radial-gradient(circle cover, #AD0E46, #2E0E19);
+    background: radial-gradient(circle cover, #7a2828, #2E0E19);
+    background: -webkit-radial-gradient(circle cover, #7a2828, #2E0E19);
+    background: -moz-radial-gradient(circle cover, #7a2828, #2E0E19);
     height: 100vh;
     max-width: 100%;
 }
