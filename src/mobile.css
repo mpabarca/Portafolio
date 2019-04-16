@@ -1,7 +1,7 @@
 /* Mobile */
 @media only screen and (max-width:767px){
-    .section-home{
-        bottom: 30px;
+    .down, .section-home, .up{
+        bottom: 40px;
     }
     /* Home */
     #home-iam{
