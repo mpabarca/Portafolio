@@ -21,7 +21,7 @@
 }
 
 /* COLORES
- #AD0E46  ->   rgba(173,14,70)
+ #AD0E46  / #7a2828   ->   rgba(173,14,70)
  #2E0E19  ->   rgba(46,14,25)
  */
 
@@ -88,7 +88,7 @@
     color:#fff;
 }
 /* ABOUT */
-#about{
+#about, #skills{
     top: 15%;
 }
 .tittle{
@@ -141,6 +141,7 @@
 }
 #skillsGroupIcon{
     margin-top: 10%;
+    transform: translateX(6%);
     display: flex;
     flex-direction: row ;
     flex-wrap: wrap;

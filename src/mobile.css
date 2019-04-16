@@ -34,7 +34,7 @@
     #about #about-content{
         width: 90%;
     }
-    #about{
+    #about, #skills{
         top: 2%;
     }
     .tittle{
@@ -42,6 +42,15 @@
     }
     .text{
         font-size: 100%;
+    }
+    #skillsGroupIcon{
+        margin-top: 5%;
+    }
+    #skills .text{
+        display:none;
+    }
+    #skills .col-6{
+        width: 100%;
     }
 }
 
