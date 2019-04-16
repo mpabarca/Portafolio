@@ -4,7 +4,7 @@
 
 .down, .section-home, .up{
     position: absolute;
-    left: 49%;
+    left: 45%;
     font-size: 30px;
 }
 .section-home{
@@ -20,11 +20,15 @@
     top: 0;
 }
 
-/* NAVBAR*/
-
 /* HOME */
 #home{
-    background: #7a2828;  
+    background: -moz-radial-gradient(center, ellipse cover, rgba(173,14,70) 0%, rgba(46,14,25) 100%); /* ff3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(173,14,70)), color-stop(100%, rgba(46,14,25))); /* safari4+,chrome */
+    background:-webkit-radial-gradient(center, ellipse cover, rgba(173,14,70) 0%, rgba(46,14,25) 100%); /* safari5.1+,chrome10+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(173,14,70) 0%, rgba(46,14,25) 100%); /* opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, rgba(173,14,70) 0%, rgba(46,14,25) 100%); /* ie10+ */
+    background:radial-gradient(ellipse at center, rgba(173,14,70) 0%, rgba(46,14,25) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#AD0E46', endColorstr='#2E0E19',GradientType=1 ); /* ie6-9 */
     height: 100vh;
     max-width: 100%;
 }
