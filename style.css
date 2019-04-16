@@ -20,15 +20,16 @@
     top: 0;
 }
 
+/* COLORES
+ #AD0E46  ->   rgba(173,14,70)
+ #2E0E19  ->   rgba(46,14,25)
+ */
+
 /* HOME */
 #home{
-    background: -moz-radial-gradient(center, ellipse cover, rgba(173,14,70) 0%, rgba(46,14,25) 100%); /* ff3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(173,14,70)), color-stop(100%, rgba(46,14,25))); /* safari4+,chrome */
-    background:-webkit-radial-gradient(center, ellipse cover, rgba(173,14,70) 0%, rgba(46,14,25) 100%); /* safari5.1+,chrome10+ */
-    background: -o-radial-gradient(center, ellipse cover, rgba(173,14,70) 0%, rgba(46,14,25) 100%); /* opera 11.10+ */
-    background: -ms-radial-gradient(center, ellipse cover, rgba(173,14,70) 0%, rgba(46,14,25) 100%); /* ie10+ */
-    background:radial-gradient(ellipse at center, rgba(173,14,70) 0%, rgba(46,14,25) 100%); /* w3c */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#AD0E46', endColorstr='#2E0E19',GradientType=1 ); /* ie6-9 */
+    background: radial-gradient(circle cover, #AD0E46, #2E0E19);
+    background: -webkit-radial-gradient(circle cover, #AD0E46, #2E0E19);
+    background: -moz-radial-gradient(circle cover, #AD0E46, #2E0E19);
     height: 100vh;
     max-width: 100%;
 }
