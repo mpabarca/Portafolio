@@ -21,99 +21,6 @@
 }
 
 /* NAVBAR*/
-.logo{
-    float:right;
-    padding:8px;
-    margin-left: 16px;
-    margin-top: 8px;
-    transform: translateY(-35%);
-}
-#content-line{
-    position: relative;
-    display: flex;
-    align-content: center;
-}
-#line-hor{
-    color: #fff;
-    width:500%;
-    transform: translateY(20px);
-
-}
-#line-ver{
-    display: none;
-    color: #fff;
-    width:52%;
-    transform: translateX(103%) rotate(90deg) ;
-    
-}
-.nav ul{
-    float:left;
-}
-.nav ul li{
-    display: inline-block;
-    margin-right: 20px;
-
-}
-.nav ul li:not(:first-child){
-    margin-left: 48px; 
-}
-.nav ul li:last-child{
-    margin-right: 48px;
-}
-.nav ul li:last-child{
-    margin-right: 24px;
-}
-.nav ul li a{
-    display: inline-block;
-    outline: none;
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-}
-.cool-link::after {
-    content: '';
-    display: block;
-    width:0;
-    height: 2px;
-    background: #fff;
-    transition: width 0.3s
-
-}
-.cool-link:hover::after{
-    color: #000;
-    margin-top: 5px;
-    width: 100%;
-    transition: width 0.3;
-}
-
-#nav:checked + .nav-button{
-    transform:rotate(45deg);
-}
-#nav:checked + .nav-button i{
-    background: #000;
-    transition: transform 0.2s ease;
-}
-#nav:checked + .nav-button i:nth-child(1){
-    transform: translateY(6px) rotate(180deg);
-}
-#nav:checked + .nav-button i:nth-child(2){
-    opacity: 0;
-}
-#nav:checked + .nav-button i:nth-child(3){
-    transform: translateY(-6px) rotate(90deg);
-} 
-#nav:checked ~ .nav-wrap{
-    z-index: 9990;
-    opacity: 1;
-}
-#nav:checked ~ .nav-wrap ul li a{
-    opacity:1;
-    transform: translateX(0);
-}
-.hidden{
-    display:none;
-}
 
 /* HOME */
 #home{
@@ -123,8 +30,12 @@
 }
 #home-container{
     margin: 0 auto;
-    margin-left: 18%;
-    margin-top: 215px;
+    position: absolute;              
+    top: 50%;                   
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-40%, -50%);
+     
 }
 .container-home{
     width: 100%;
