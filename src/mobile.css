@@ -60,6 +60,12 @@
         transform: translateX(-30px);
     }
     /* Projects */
+    #projects-mobile{
+        display: block;
+    }
+    #projects-cards{
+        display: none
+    }
 }
 
 /* Tablets */
@@ -67,6 +73,7 @@
     #home-iam{
         transform: translateY(1%);
     }
+    
 }
 @media only screen and (min-width:1500px){
     .container{
