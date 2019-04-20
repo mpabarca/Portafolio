@@ -66,6 +66,9 @@
     #projects-cards{
         display: none
     }
+    .projects-container{
+        max-width: 1500px;
+    }
 }
 
 /* Tablets */
@@ -73,7 +76,7 @@
     #home-iam{
         transform: translateY(1%);
     }
-    
+
 }
 @media only screen and (min-width:1500px){
     .container{
