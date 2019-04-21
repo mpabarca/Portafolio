@@ -147,11 +147,11 @@
 .text{
     font-weight: 300;
     font-size: 20px;
+    text-align: justify;
 }
 #img-about1{
     width: 70%;
     height: auto;
-    transform: translateY(-5%);
 }
 #img-about2{
     display: none;
