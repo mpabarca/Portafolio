@@ -26,257 +26,255 @@
         <link rel="stylesheet" href="assets/css/grid.css">
     </head>
     <body>
+        <div id="pagepiling">
+            <div class="section" id="home">
+                <div id="nav-bar">
+                    <div class="nav">
+                        <input type="checkbox" id="nav" class="hidden">
+                        <label for="nav" class="nav-button">
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </label>
+                        
+                        <div class="nav-wrap">
+                            <div class="logo"><img src="assets/img/logo.png"></div>
+                            
+                            <ul>
+                                <li><a class= "cool-link" href="#home">INICIO</a></li>
+                                <li><a class= "cool-link" href="#about">SOBRE MI</a></li>
+                                <li><a class= "cool-link" href="#skills">HABILIDADES</a></li>
+                                <li><a class= "cool-link" href="#projects">PROJECTOS</a></li>
+                                <li><a class= "cool-link" href="#contact">CONTACTO</a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
 
-        <section id="home">
-            <div id="nav-bar">
-                <div class="nav">
-                    <input type="checkbox" id="nav" class="hidden">
-                    <label for="nav" class="nav-button">
-                        <i></i>
-                        <i></i>
-                        <i></i>
-                    </label>
+                <div class="content-line"><hr id="line-hor"></div>
+
+                <div class="home-container">
+
+                    <div id="home-text" class="col-11">
+                        <div class="home-element" id="home-iam">Yo soy</div>
+                        <div><img class="home-element" id="img-name" src="assets/img/name.png"></img></div>
+                        <div class="home-element"id="home-rol">Junior Front-End development</div>
+                        <a href="#contact"><button class="home-element" id="home-button">CONTÁCTAME  <i id="home-icon" class="far fa-envelope"></i></button></a>
+                    </div>
                     
-                    <div class="nav-wrap">
-                        <div class="logo"><img src="assets/img/logo.png"></div>
-                        
-                        <ul>
-                            <li><a class= "cool-link" href="#home">INICIO</a></li>
-                            <li><a class= "cool-link" href="#about">SOBRE MI</a></li>
-                            <li><a class= "cool-link" href="#skills">HABILIDADES</a></li>
-                            <li><a class= "cool-link" href="#projects">PROJECTOS</a></li>
-                            <li><a class= "cool-link" href="#contact">CONTACTO</a></li>
-                        </ul>
-                        
+                    <div id="home-links" class="col-1">
+                        <div class="row-pure">
+                            <div id="line-ver"></div>
+                        </div>
+                        <div class="row-pure s-m">
+                            <a target="blank" href="https://www.linkedin.com/in/mar%C3%ADa-paz-abarca-800311128/"><i class="fab fa-linkedin-in"></i></a>
+                            <a target="blank" href="https://github.com/mpabarca"><i class="fab fa-github"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="content-line"><hr id="line-hor"></div>
-
-            <div class="home-container">
-
-                <div id="home-text" class="col-11">
-                    <div class="home-element" id="home-iam">Yo soy</div>
-                    <div><img class="home-element" id="img-name" src="assets/img/name.png"></img></div>
-                    <div class="home-element"id="home-rol">Junior Front-End development</div>
-                    <a href="#contact"><button class="home-element" id="home-button">CONTÁCTAME  <i id="home-icon" class="far fa-envelope"></i></button></a>
-                </div>
-                
-                <div id="home-links" class="col-1">
-                    <div class="row-pure">
-                        <div id="line-ver"></div>
+    
+            <div class="section" id="about" class="container">
+                <div class="col-6"><img id="img-about1" src="assets/img/about.png"></img></div>
+                <div id="about-content" class="col-6">
+                    <div class="tittle">sobre Mi</div>
+                    <div class="text">¿Necesitas en tu equipo a alguien dispuesto a aprender cualquier herramienta o 
+                        superar cualquier desafio con tal de lograr un proyecto?¿A alguien autodidacta, 
+                        sin miedo en aprender y con la base y habilidad suficiente en metodologias ágiles, 
+                        comunicacion eficaz, programacion front-end y back-end para desarrollar cualquier proyecto?
+                        <br>    Mi nombre es María Paz Abarca y soy desarrolladora web especializada en front-end e iniciando 
+                        en áreas de back-end. 
                     </div>
-                    <div class="row-pure s-m">
+                    
+                    <img id="img-about2" src="assets/img/about.png"></img>
+                </div>
+            </div>
+        
+            <div class="section" id="skills" class="container">
+                <div class="col-6">
+                    <div class="tittle">habilidades</div>
+                    <div class="text"> Soy egresada de Laboratoria, un bootcamp en programacion de 6 meses de alta 
+                        intensidad con aprendizajes como desarrollo front-end, UX, metodologias ágiles y las habilidades
+                        blandas necesarias para trabajar en equipo.
+                        <br> A la vez tuve experiencia de 2 años en matemáticas avanzadas, ciencias básicas y una introduccion 
+                        en programacion en la Pontificia Universidad Católica de Chile. 
+                    </div>
+                    
+                </div>
+                <div id="skillsGroupIcon" class="col-6">
+                    <div class="icon-group"><i class="devicon-html5-plain-wordmark" style="font-size:600%"></i></div>
+                    <div class="icon-group"><i class="devicon-javascript-plain" style="font-size:600%"></i></div>
+                    <div class="icon-group"><i class="devicon-css3-plain-wordmark" style="font-size:600%"></i></div>
+                    <div class="icon-group"><i class="devicon-bootstrap-plain-wordmark" style="font-size:600%"></i></div>
+                    <div class="icon-group"><img id="skillsM" src="assets/img/materialize.png" style="font-size:600%"></img></div>
+                    <div class="icon-group"><i class="devicon-react-original-wordmark" style="font-size:600%"></i></div>
+                    <div class="icon-group"><i class="devicon-python-plain-wordmark" style="font-size:600%"></i></div>
+                    <div class="icon-group"><i class="devicon-git-plain-wordmark" style="font-size:600%"></i></div>
+                    <div class="icon-group"><i class="devicon-github-plain-wordmark" style="font-size:600%"></i></div>
+                    <div class="icon-group"><i class="devicon-nodejs-plain-wordmark" style="font-size:600%"></i></div>
+                    <div class="icon-group"><i class="devicon-ubuntu-plain-wordmark" style="font-size:600%"></i></div>
+                </div>
+            </div>
+
+            <div class="section" id="projects" class="projects-container">
+
+                <div id="projects-tittle" class="tittle">projectos</div>
+
+                <!-- MOBILE -->
+                <div id="projects-mobile" class="carousel">
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/img/slide1.png">
+                            </div>
+                    
+                            <div class="card-content">
+                                <div class="info-section">
+                                    <h2>Medicina Natural
+                                        <div class="border"></div>
+                                    </h2>
+                                    <p>Vanilla JS, Firebase, CSS puro</p>
+                                    <div class="s-m">
+                                        <a href="https://github.com/mpabarca/SCL007-Social-Network" target=blank class="far fa-file-code">
+                                            <br><p>code</p> 
+                                        </a>
+                                        <a href="https://mpabarca.github.io/SCL007-Social-Network/" target=blank class="far fa-newspaper">
+                                            <br><p>demo</p> 
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/img/slide2.png">
+                            </div>
+                    
+                            <div class="card-content">
+                                <div class="info-section">
+                                    <h2>League of Legends App
+                                        <div class="border"></div>
+                                    </h2>
+                                    <p>Vanilla JS, API Rest, Materialize</p>
+                                    <div class="s-m">
+                                        <a href="https://github.com/mpabarca/scl-2018-12-bc-core-data-lovers" target=blank class="far fa-file-code">
+                                            <br><p>code</p> 
+                                        </a>
+                                        <a href="https://mpabarca.github.io/scl-2018-12-bc-core-data-lovers/" target=blank class="far fa-newspaper">
+                                            <br><p>demo</p> 
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/img/slide3.jpg">
+                            </div>
+                    
+                            <div class="card-content">
+                                <div class="info-section">
+                                    <h2>Burguer Queen App
+                                        <div class="border"></div>
+                                    </h2>
+                                    <p>ReactJS, Redux, React-Bootstrap </p>
+                                    <div class="s-m">
+                                        <a href="https://github.com/mpabarca/BurgerQueen" target=blank class="far fa-file-code">
+                                            <br><p>code</p> 
+                                        </a>
+                                        <a href="https://mpabarca.github.io/BurgerQueen" target=blank class="far fa-newspaper">
+                                            <br><p>demo</p> 
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DESKTOP -->
+                <div id="projects-cards">
+                    <div class="card-middle">
+                        <div class="top-section">
+                            <img src="assets/img/slide1.png">
+                        </div>
+                        <div class="info-section">
+                            <h2>Medicina Natural
+                                <div class="border"></div>
+                            </h2>
+                            <p>Aplicación estilo red social
+                                <br>Vanilla JS, Firebase y CSS puro</p>
+                            <div class="s-m">
+                                <a href="https://github.com/mpabarca/SCL007-Social-Network" target=blank class="far fa-file-code">
+                                    <br><p>code</p> 
+                                </a>
+                                <a href="https://mpabarca.github.io/SCL007-Social-Network/" target=blank class="far fa-newspaper">
+                                    <br><p>demo</p> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-middle">
+                        <div class="top-section">
+                            <img src="assets/img/slide2.png">
+                        </div>
+                        <div class="info-section">
+                            <h2>League of Legends App
+                                <div class="border"></div>
+                            </h2>
+                            <p>Página web con datos del juego
+                                <br>Vanilla JS, API Rest, Materialize
+                            </p>
+                            <div class="s-m">
+                                <a href="https://github.com/mpabarca/scl-2018-12-bc-core-data-lovers" target=blank class="far fa-file-code">
+                                    <br><p>code</p> 
+                                </a>
+                                <a href="https://mpabarca.github.io/scl-2018-12-bc-core-data-lovers/" target=blank class="far fa-newspaper">
+                                    <br><p>demo</p> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-middle">
+                        <div class="top-section">
+                            <img src="assets/img/slide3.jpg">
+                        </div>
+                        <div class="info-section">
+                            <h2>Burger Queen App
+                                <div class="border"></div>
+                            </h2>
+                            <p>Interfaz web para restaurants
+                                <br>ReactJS, Firebase, Redux, React-Bootstrap </p>
+                            <div class="s-m">
+                                <a href="https://github.com/mpabarca/BurgerQueen" target="blank" class="far fa-file-code">
+                                    <br><p>code</p> 
+                                </a>
+                                <a href="https://mpabarca.github.io/BurgerQueen/" target="blank" class="far fa-newspaper">
+                                    <br><p>demo</p> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+
+            <div class="section" id="contact" class="container-contact">
+                <img class="col-6" src="assets/img/contact1.jpg" id="img-contact2">
+                <div id="contact-text" class="col-6">
+                    <div id="contact-tittle"><span>contáctame</span></div>
+                    <div class="s-m">
                         <a target="blank" href="https://www.linkedin.com/in/mar%C3%ADa-paz-abarca-800311128/"><i class="fab fa-linkedin-in"></i></a>
                         <a target="blank" href="https://github.com/mpabarca"><i class="fab fa-github"></i></a>
                     </div>
+                    <div id="contact-email">mpabarca@uc.cl</div>
                 </div>
             </div>
-            
-            
-            
-        </section>
-   
-        <section id="about" class="container">
-            <div class="col-6"><img id="img-about1" src="assets/img/about.png"></img></div>
-            <div id="about-content" class="col-6">
-                <div class="tittle">sobre Mi</div>
-                <div class="text">¿Necesitas en tu equipo a alguien dispuesto a aprender cualquier herramienta o 
-                    superar cualquier desafio con tal de lograr un proyecto?¿A alguien autodidacta, 
-                    sin miedo en aprender y con la base y habilidad suficiente en metodologias ágiles, 
-                    comunicacion eficaz, programacion front-end y back-end para desarrollar cualquier proyecto?
-                    <br>    Mi nombre es María Paz Abarca y soy desarrolladora web especializada en front-end e iniciando 
-                    en áreas de back-end. 
-                </div>
-                
-                <img id="img-about2" src="assets/img/about.png"></img>
-            </div>
-        </section>
-       
-        <section id="skills" class="container">
-            <div class="col-6">
-                <div class="tittle">habilidades</div>
-                <div class="text"> Soy egresada de Laboratoria, un bootcamp en programacion de 6 meses de alta 
-                    intensidad con aprendizajes como desarrollo front-end, UX, metodologias ágiles y las habilidades
-                     blandas necesarias para trabajar en equipo.
-                    <br> A la vez tuve experiencia de 2 años en matemáticas avanzadas, ciencias básicas y una introduccion 
-                    en programacion en la Pontificia Universidad Católica de Chile. 
-                </div>
-                
-            </div>
-            <div id="skillsGroupIcon" class="col-6">
-                <div class="icon-group"><i class="devicon-html5-plain-wordmark" style="font-size:600%"></i></div>
-                <div class="icon-group"><i class="devicon-javascript-plain" style="font-size:600%"></i></div>
-                <div class="icon-group"><i class="devicon-css3-plain-wordmark" style="font-size:600%"></i></div>
-                <div class="icon-group"><i class="devicon-bootstrap-plain-wordmark" style="font-size:600%"></i></div>
-                <div class="icon-group"><img id="skillsM" src="assets/img/materialize.png" style="font-size:600%"></img></div>
-                <div class="icon-group"><i class="devicon-react-original-wordmark" style="font-size:600%"></i></div>
-                <div class="icon-group"><i class="devicon-python-plain-wordmark" style="font-size:600%"></i></div>
-                <div class="icon-group"><i class="devicon-git-plain-wordmark" style="font-size:600%"></i></div>
-                <div class="icon-group"><i class="devicon-github-plain-wordmark" style="font-size:600%"></i></div>
-                <div class="icon-group"><i class="devicon-nodejs-plain-wordmark" style="font-size:600%"></i></div>
-                <div class="icon-group"><i class="devicon-ubuntu-plain-wordmark" style="font-size:600%"></i></div>
-            </div>
-        </section>
-
-        <section id="projects" class="projects-container">
-
-            <div id="projects-tittle" class="tittle">projectos</div>
-
-            <!-- MOBILE -->
-            <div id="projects-mobile" class="carousel">
-                <div class="carousel-item">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="assets/img/slide1.png">
-                        </div>
-                
-                        <div class="card-content">
-                            <div class="info-section">
-                                <h2>Medicina Natural
-                                    <div class="border"></div>
-                                </h2>
-                                <p>Vanilla JS, Firebase, CSS puro</p>
-                                <div class="s-m">
-                                    <a href="https://github.com/mpabarca/SCL007-Social-Network" target=blank class="far fa-file-code">
-                                        <br><p>code</p> 
-                                    </a>
-                                    <a href="https://mpabarca.github.io/SCL007-Social-Network/" target=blank class="far fa-newspaper">
-                                        <br><p>demo</p> 
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="assets/img/slide2.png">
-                        </div>
-                
-                        <div class="card-content">
-                            <div class="info-section">
-                                <h2>League of Legends App
-                                    <div class="border"></div>
-                                </h2>
-                                <p>Vanilla JS, API Rest, Materialize</p>
-                                <div class="s-m">
-                                    <a href="https://github.com/mpabarca/scl-2018-12-bc-core-data-lovers" target=blank class="far fa-file-code">
-                                        <br><p>code</p> 
-                                    </a>
-                                    <a href="https://mpabarca.github.io/scl-2018-12-bc-core-data-lovers/" target=blank class="far fa-newspaper">
-                                        <br><p>demo</p> 
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="assets/img/slide3.jpg">
-                        </div>
-                
-                        <div class="card-content">
-                            <div class="info-section">
-                                <h2>Burguer Queen App
-                                    <div class="border"></div>
-                                </h2>
-                                <p>ReactJS, Redux, React-Bootstrap </p>
-                                <div class="s-m">
-                                    <a href="https://github.com/mpabarca/BurgerQueen" target=blank class="far fa-file-code">
-                                        <br><p>code</p> 
-                                    </a>
-                                    <a href="https://mpabarca.github.io/BurgerQueen" target=blank class="far fa-newspaper">
-                                        <br><p>demo</p> 
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- DESKTOP -->
-            <div id="projects-cards">
-                <div class="card-middle">
-                    <div class="top-section">
-                        <img src="assets/img/slide1.png">
-                    </div>
-                    <div class="info-section">
-                        <h2>Medicina Natural
-                            <div class="border"></div>
-                        </h2>
-                        <p>Aplicación estilo red social
-                            <br>Vanilla JS, Firebase y CSS puro</p>
-                        <div class="s-m">
-                            <a href="https://github.com/mpabarca/SCL007-Social-Network" target=blank class="far fa-file-code">
-                                <br><p>code</p> 
-                            </a>
-                            <a href="https://mpabarca.github.io/SCL007-Social-Network/" target=blank class="far fa-newspaper">
-                                <br><p>demo</p> 
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-middle">
-                    <div class="top-section">
-                        <img src="assets/img/slide2.png">
-                    </div>
-                    <div class="info-section">
-                        <h2>League of Legends App
-                            <div class="border"></div>
-                        </h2>
-                        <p>Página web con datos del juego
-                            <br>Vanilla JS, API Rest, Materialize
-                        </p>
-                        <div class="s-m">
-                            <a href="https://github.com/mpabarca/scl-2018-12-bc-core-data-lovers" target=blank class="far fa-file-code">
-                                <br><p>code</p> 
-                            </a>
-                            <a href="https://mpabarca.github.io/scl-2018-12-bc-core-data-lovers/" target=blank class="far fa-newspaper">
-                                <br><p>demo</p> 
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-middle">
-                    <div class="top-section">
-                        <img src="assets/img/slide3.jpg">
-                    </div>
-                    <div class="info-section">
-                        <h2>Burger Queen App
-                            <div class="border"></div>
-                        </h2>
-                        <p>Interfaz web para restaurants
-                            <br>ReactJS, Firebase, Redux, React-Bootstrap </p>
-                        <div class="s-m">
-                            <a href="https://github.com/mpabarca/BurgerQueen" target="blank" class="far fa-file-code">
-                                <br><p>code</p> 
-                            </a>
-                            <a href="https://mpabarca.github.io/BurgerQueen/" target="blank" class="far fa-newspaper">
-                                <br><p>demo</p> 
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>      
-
-        <section id="contact" class="container-contact">
-            <img class="col-6" src="assets/img/contact1.jpg" id="img-contact2">
-            <div id="contact-text" class="col-6">
-                <div id="contact-tittle"><span>contáctame</span></div>
-                <div class="s-m">
-                    <a target="blank" href="https://www.linkedin.com/in/mar%C3%ADa-paz-abarca-800311128/"><i class="fab fa-linkedin-in"></i></a>
-                    <a target="blank" href="https://github.com/mpabarca"><i class="fab fa-github"></i></a>
-                </div>
-                <div id="contact-email">mpabarca@uc.cl</div>
-            </div>
-        </section>
+        </div>
         <!-- jquery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
