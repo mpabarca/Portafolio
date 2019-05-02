@@ -6,5 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   $(document).ready(function() {
-    $('#pagepiling').pagepiling();
+    $('#pagepiling').pagepiling({
+      anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
+      menu: '#myMenu'
   });
+});
