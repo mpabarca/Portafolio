@@ -66,9 +66,6 @@
     #projects-cards{
         display: none
     }
-    .projects-container{
-        max-width: 1500px;
-    }
     .info-section{
         padding: 0px;
         padding-bottom: 5px;
