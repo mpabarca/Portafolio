@@ -49,7 +49,6 @@
     height: 2px;
     background: #fff;
     transition: width 0.3s;
-
 }
 .cool-link:hover{
     font-weight: 600;
@@ -60,7 +59,9 @@
     width: 100%;
     transition: width 0.3s;
 }
-
+.nav ul li .about, .about::after, .about:hover::after{
+    color: #7a2828;
+}
 #nav:checked + .nav-button{
     transform:rotate(45deg);
 }

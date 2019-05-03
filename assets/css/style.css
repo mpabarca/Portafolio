@@ -110,6 +110,9 @@
 }
 
 /* ABOUT */
+#about, #skills{
+    transform: translateY(-50px);
+}
 .tittle{
     font-family: 'Merriweather', serif;
     color: #7a2828;  
