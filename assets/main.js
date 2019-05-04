@@ -8,6 +8,21 @@ document.addEventListener('DOMContentLoaded', function() {
   $(document).ready(function() {
     $('#pagepiling').pagepiling({
       anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
-      menu: '#myMenu'
+      menu: '#myMenu',
+      navigation:true
   });
+});
+
+$(function() {
+  var header = $(".nav-wrap");
+
+  $(window).scroll(function() {    
+      var scroll = $(window).scrollTop();
+      if (scroll >= 50) {
+          header.addClass("scrolled");
+      } else {
+          header.removeClass("scrolled");
+      }
+  });
+
 });
