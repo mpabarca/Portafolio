@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 $(function() {
-  var header = $(".nav-wrap");
+  var header = $(".navbar");
 
   $(window).scroll(function() {    
       var scroll = $(window).scrollTop();

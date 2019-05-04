@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left :0;
+    padding: 2rem;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    background-color: grey;
+    transition: 0.3s;
+    z-index: 70;
+  }
+  
+  .scrolled{
+    background-color: dodgerblue;
+    transition: 0.3s;
+    z-index: 60;
+  }
+
 /* Navbar */
 .logo{
     float:right;
@@ -43,10 +63,6 @@
     margin:0;
     transition: 0.3s;
     background-color: grey;
-}
-.scrolled{
-    background-color: dodgerblue;
-    transition: 0.3s;
 }
 .nav ul{
     float:left;
