@@ -26,34 +26,34 @@
         <link rel="stylesheet" href="assets/css/grid.css">
     </head>
     <body>
+        
+        <div class="nav" id="mynav">
+            <input type="checkbox" id="nav" class="hidden">
+            <label for="nav" class="nav-button">
+                <i></i>
+                <i></i>
+                <i></i>
+            </label>
+            
+            <div class="nav-wrap">
+                <div class="logo"><!--<img src="assets/img/logo.png">--></div>
+                
+                <ul id="myMenu">
+                    <li data-menuanchor="firstPage" class="active"><a class= "cool-link" href="#firstPage">INICIO</a></li>
+                    <li data-menuanchor="secondPage"><a class= "cool-link" href="#secondPage">SOBRE MI</a></li>
+                    <li data-menuanchor="thirdPage"><a class= "cool-link" href="#thirdPage">HABILIDADES</a></li>
+                    <li data-menuanchor="fourthPage"><a class= "cool-link" href="#fourthPage">PROJECTOS</a></li>
+                    <li data-menuanchor="fifthPage"><a class= "cool-link" href="#fifthPage">CONTACTO</a></li>
+                </ul>
+                
+            </div>
+        </div>
+            <!--
+            <div class="content-line"><hr id="line-hor"></div>
+            -->
+        
         <div id="pagepiling">
             <div class="section" id="home">
-                <div id="nav-bar">
-                    <div class="nav">
-                        <input type="checkbox" id="nav" class="hidden">
-                        <label for="nav" class="nav-button">
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                        </label>
-                        
-                        <div class="nav-wrap">
-                            <div class="logo"><img src="assets/img/logo.png"></div>
-                            
-                            <ul id="myMenu">
-                                <li data-menuanchor="firstPage" class="active"><a class= "cool-link" href="#firstPage">INICIO</a></li>
-                                <li data-menuanchor="secondPage"><a class= "cool-link" href="#secondPage">SOBRE MI</a></li>
-                                <li data-menuanchor="thirdPage"><a class= "cool-link" href="#thirdPage">HABILIDADES</a></li>
-                                <li data-menuanchor="fourthPage"><a class= "cool-link" href="#fourthPage">PROJECTOS</a></li>
-                                <li data-menuanchor="fifthPage"><a class= "cool-link" href="#fifthPage">CONTACTO</a></li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-line"><hr id="line-hor"></div>
-
                 <div class="home-container">
 
                     <div id="home-text" class="col-11">
@@ -64,9 +64,14 @@
                     </div>
                     
                     <div id="home-links" class="col-1">
+                        <!--
                         <div class="row-pure">
-                            <div id="line-ver"></div>
+                            <div id="line-ver"><hr></div>
                         </div>
+                        <div class="row-pure">
+                            <div id="line-ver"><hr></div>
+                        </div>
+                        -->
                         <div class="row-pure s-m">
                             <a target="blank" href="https://www.linkedin.com/in/mar%C3%ADa-paz-abarca-800311128/"><i class="fab fa-linkedin-in"></i></a>
                             <a target="blank" href="https://github.com/mpabarca"><i class="fab fa-github"></i></a>
@@ -76,29 +81,6 @@
             </div>
     
             <div class="section container">
-                <div class="row" id="nav-bar-about">
-                    <div class="nav">
-                        <input type="checkbox" id="nav" class="hidden">
-                        <label for="nav" class="nav-button">
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                        </label>
-                        
-                        <div class="nav-wrap">
-                            <div class="logo"><img src="assets/img/logo.png"></div>
-                            
-                            <ul id="myMenu">
-                                <li data-menuanchor="firstPage" class="active"><a class= "cool-link about" href="#firstPage">INICIO</a></li>
-                                <li data-menuanchor="secondPage"><a class= "cool-link about" href="#secondPage">SOBRE MI</a></li>
-                                <li data-menuanchor="thirdPage"><a class= "cool-link about" href="#thirdPage">HABILIDADES</a></li>
-                                <li data-menuanchor="fourthPage"><a class= "cool-link about" href="#fourthPage">PROJECTOS</a></li>
-                                <li data-menuanchor="fifthPage"><a class= "cool-link about" href="#fifthPage">CONTACTO</a></li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-                </div>
                 <div class="row" id="about">
                      <div class="col-6"><img id="img-about1" src="assets/img/about.png"></img></div>
                     <div id="about-content" class="col-6">

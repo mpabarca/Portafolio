@@ -16,9 +16,37 @@
 }
 #line-hor{
     margin-left: 10px;
-    color: #fff;
+    color: #000;
     width:500%;
     transform: translateY(20px);
+}
+#line-ver{
+    width: 100%;
+    height: 70vh;
+    margin-right: 7px;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+}
+.row-pure {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nav{
+    position:fixed;
+	top:0;
+	left:0;
+	height: 50px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+    margin:0;
+    transition: 0.3s;
+    background-color: grey;
+}
+.scrolled{
+    background-color: dodgerblue;
+    transition: 0.3s;
 }
 .nav ul{
     float:left;
@@ -58,9 +86,6 @@
     margin-top: 5px;
     width: 100%;
     transition: width 0.3s;
-}
-.nav ul li .about, .about::after, .about:hover::after{
-    color: #7a2828;
 }
 #nav:checked + .nav-button{
     transform:rotate(45deg);
