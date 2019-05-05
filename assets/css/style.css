@@ -80,14 +80,6 @@
     background: #AD0E46;
     color:#fff;
 }
-#home-links{
-    position: relative;
-    float: right;
-    padding-right: 16px;
-    height: 80vh;
-    left:5%;
-    margin-top: 5%;
-}
 
 #home .s-m{
     display: flex;
@@ -101,9 +93,6 @@
     color: #fff;
     transition: .4s;
     margin-top: 5px;
-}
-#home .s-m a:hover{
-    transform: translateY(-10px);
 }
 
 /* ABOUT */
