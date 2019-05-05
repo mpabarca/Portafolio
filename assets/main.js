@@ -52,6 +52,11 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById("logo").style["background-image"]='url("assets/img/logo.png")';
           document.getElementById("nav-linkedin").style["color"]="#fff";
           document.getElementById("nav-github").style["color"]="#fff";
+          if (widthWindow < 1199){
+            document.getElementById("one-button").style["background"]="#fff";
+            document.getElementById("two-button").style["background"]="#fff";
+            document.getElementById("three-button").style["background"]="#fff";
+          }
           
         }
         else if(index == 3 && nextIndex== 1 && direction == 'up'){
@@ -65,6 +70,11 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById("logo").style["background-image"]='url("assets/img/logo.png")';
           document.getElementById("nav-linkedin").style["color"]="#fff";
           document.getElementById("nav-github").style["color"]="#fff";
+          if (widthWindow < 1199){
+            document.getElementById("one-button").style["background"]="#fff";
+            document.getElementById("two-button").style["background"]="#fff";
+            document.getElementById("three-button").style["background"]="#fff";
+          }
         }
         else if(index == 4 && nextIndex== 1 && direction == 'up'){
           document.getElementById("nav-home").style["color"]="#fff";
@@ -77,6 +87,11 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById("logo").style["background-image"]='url("assets/img/logo.png")';
           document.getElementById("nav-linkedin").style["color"]="#fff";
           document.getElementById("nav-github").style["color"]="#fff";
+          if (widthWindow < 1199){
+            document.getElementById("one-button").style["background"]="#fff";
+            document.getElementById("two-button").style["background"]="#fff";
+            document.getElementById("three-button").style["background"]="#fff";
+          }
         }
         else if(index == 5 && nextIndex== 1 && direction == 'up'){
           document.getElementById("nav-home").style["color"]="#fff";
@@ -89,6 +104,11 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById("logo").style["background-image"]='url("assets/img/logo.png")';
           document.getElementById("nav-linkedin").style["color"]="#fff";
           document.getElementById("nav-github").style["color"]="#fff";
+          if (widthWindow < 1199){
+            document.getElementById("one-button").style["background"]="#fff";
+            document.getElementById("two-button").style["background"]="#fff";
+            document.getElementById("three-button").style["background"]="#fff";
+          }
         }
       }
 
