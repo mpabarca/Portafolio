@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
       navigation: true,
       onLeave: function(index, nextIndex, direction){
         //after leaving section 2
-        
+        var widthWindow= window.innerWidth;
         if(index == 1 && direction =='down'){
           document.getElementById("nav-home").style["color"]="#7a2828";
           document.getElementById("nav-about").style["color"]="#7a2828";
@@ -35,6 +35,11 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById("line-hor").style["border-top"]="2px solid #7a2828";
           document.getElementById("line-ver").style["border-right"]="2px solid #7a2828";
           document.getElementById("logo").style["background-image"]='url("assets/img/logo2.png")';
+          if (widthWindow < 1199){
+            document.getElementById("one-button").style["background"]="#7a2828";
+            document.getElementById("two-button").style["background"]="#7a2828";
+            document.getElementById("three-button").style["background"]="#7a2828";
+          }
         }
         else if(index == 2 && nextIndex== 1 && direction == 'up'){
           document.getElementById("nav-home").style["color"]="#fff";
