@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 /* Navbar */
-.logo{
-    float:right;
-    padding:8px;
-    margin-left: 16px;
-    margin-top: 8px;
-    transform: translateY(-35%);
+#logo{
+    width: 88px;
+    height: 91px;
+    background-image: url("../img/logo.png");
+    z-index: 100;
+    float: right;
 }
 .content-line{
     position: relative;
@@ -15,27 +15,17 @@
     align-content: center;
 }
 #line-hor{
-    color: rgb(85, 76, 76);
-    width:55%;
     z-index: 90;
-    float: right;
-    margin-right: 8%;
-    margin-top: 1.8%;
+    width: 70%;
+    margin-top: 50px;
     border-top: 2px solid #fff;
 }
 #line-ver{
     z-index: 80;
-    width: 40%;
+    width: 30%;
     height: 70vh;
     float: right;
-    margin-top: 70px;
-    margin-right: 4%;
     border-right: 2px solid #fff;
-}
-.row-pure {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 .nav{
     position:fixed;
@@ -46,12 +36,15 @@
 	width: 100%;
 	padding: 0;
     margin:0;
-    margin-left: 3%;
+    padding-left: 3%;
     margin-top: 1%;
     transition: 0.3s;
 }
 .nav ul{
+    width: 466px;
     float:left;
+    margin-bottom: 0;
+    margin-top: 40px;
 }
 .nav ul li{
     display: inline-block;
@@ -116,6 +109,31 @@
 .hidden{
     display:none;
 }
+@media screen and (max-width:1900px){
+    #line-hor{
+        width:65%;
+    }
+}
+@media screen and (max-width:1700px){
+    #line-hor{
+        width:62%;
+    }
+}
+@media screen and (max-width:1600px){
+    #line-hor{
+        width:60%;
+    }
+}
+@media screen and (max-width:1500px){
+    #line-hor{
+        width:55%;
+    }
+}
+@media screen and (max-width:1270px){
+    #line-hor{
+        width:50%;
+    }
+}
 
 @media screen and (max-width:1199px){
     #home .s-m{
@@ -124,8 +142,10 @@
     #line-ver, #line-hor{
         display: none;
     }
-    .logo{
+    #logo{
         padding:0;
+        float: left;
+
     }
     .nav-wrap{
         position:fixed;

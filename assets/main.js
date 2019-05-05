@@ -5,6 +5,17 @@ document.addEventListener('DOMContentLoaded', function() {
     window.M.Carousel.init(elems, {});
   });
 
+  $(function() 
+  {
+      $("#home-button").mouseenter(function(event) {
+          $(this).addClass("animated bounceIn");
+      });
+      
+      $("#home-button").on("webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd", function(event) {
+          $(this).removeClass("animated bounceIn");
+      });
+  });
+
   $(document).ready(function() {
     $('#pagepiling').pagepiling({
       anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
@@ -21,6 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById("nav-contact").style["color"]="#7a2828";
           document.getElementById("line-hor").style["border-top"]="2px solid #7a2828";
           document.getElementById("line-ver").style["border-right"]="2px solid #7a2828";
+          document.getElementById("logo").style["background-image"]='url("assets/img/logo2.png")';
         }
         else if(index == 2 && nextIndex== 1 && direction == 'up'){
           document.getElementById("nav-home").style["color"]="#fff";
@@ -30,6 +42,8 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById("nav-contact").style["color"]="#fff";
           document.getElementById("line-hor").style["border-top"]="2px solid #fff";
           document.getElementById("line-ver").style["border-right"]="2px solid #fff";
+          document.getElementById("logo").style["background-image"]='url("assets/img/logo.png")';
+          
         }
         else if(index == 3 && nextIndex== 1 && direction == 'up'){
           document.getElementById("nav-home").style["color"]="#fff";
@@ -39,6 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById("nav-contact").style["color"]="#fff";
           document.getElementById("line-hor").style["border-top"]="2px solid #fff";
           document.getElementById("line-ver").style["border-right"]="2px solid #fff";
+          document.getElementById("logo").style["background-image"]='url("assets/img/logo.png")';
         }
         else if(index == 4 && nextIndex== 1 && direction == 'up'){
           document.getElementById("nav-home").style["color"]="#fff";
@@ -48,6 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById("nav-contact").style["color"]="#fff";
           document.getElementById("line-hor").style["border-top"]="2px solid #fff";
           document.getElementById("line-ver").style["border-right"]="2px solid #fff";
+          document.getElementById("logo").style["background-image"]='url("assets/img/logo.png")';
         }
         else if(index == 5 && nextIndex== 1 && direction == 'up'){
           document.getElementById("nav-home").style["color"]="#fff";
@@ -57,6 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById("nav-contact").style["color"]="#fff";
           document.getElementById("line-hor").style["border-top"]="2px solid #fff";
           document.getElementById("line-ver").style["border-right"]="2px solid #fff";
+          document.getElementById("logo").style["background-image"]='url("assets/img/logo.png")';
         }
       }
 

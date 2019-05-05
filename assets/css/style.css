@@ -53,15 +53,18 @@
     font-weight: 300;
 }
 #home-button{
-    font-family: 'Roboto', sans-serif;
     background: #fff;
-    color: #7a2828;
-    font-weight: 600;
-    font-size: 15px;
     border: none;
     width: 150px;
     height: 35px;
     margin-top: 2%;
+}
+#home-button-a{
+    color: #7a2828;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration:none; 
 }
 #home-icon{
     margin-left: 8px;
@@ -69,6 +72,9 @@
 #img-name{
     width: 70%;
     height: auto;
+}
+#home-button-a:hover{
+    color:#fff;
 }
 #home-button:hover{
     background: #AD0E46;
