@@ -81,7 +81,8 @@
 }
 @media only screen and (min-width:1500px){
     .container{
-        padding-left: 0%;
+        margin: 0%;
+        padding-left: 10%;
     }
     #about{
         top: 10%;
@@ -93,9 +94,26 @@
         font-size: 25px;
     }
     #img-about1{
-        width: 100%;
+        width: 90%;
         height: auto;
         transform: translateX(-12%) ;
     }
+    #skills-content{
+        transform: translateY(-10%);
+    }
 
+}
+@media only screen and (min-width:1700px){
+    .container{
+        padding-left: 20%;
+        max-width: 1700px;
+    }
+    #img-about1{
+        transform: translateX(-20%) ;
+    }
+    #skills-content{
+        transform: translateY(-10%) translateX(-10%);
+    }
+
+      
 }

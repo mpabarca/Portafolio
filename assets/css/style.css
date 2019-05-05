@@ -96,7 +96,7 @@
 }
 
 /* ABOUT */
-#about, #skills{
+#about{
     transform: translateY(30px);
 }
 .tittle{
@@ -134,6 +134,9 @@
 }
 
 /* SKILLS */
+ #skills{
+    transform: translateY(40px);
+}
 #skillsLanguage{
     background:#7a2828;
     border: none;
