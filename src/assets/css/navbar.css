@@ -22,12 +22,23 @@
 }
 #line-ver{
     z-index: 80;
-    width: 30%;
-    height: 70vh;
+    width: 20%;
+    height: 75vh;
     float: right;
     margin-right: 50px;
-    transform: translateY(-10px);
+    transform: translateY(-20px);
     border-right: 2px solid #fff;
+}
+#links{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+#links a{
+    color: #fff;
+    transition: .4s;
+    padding-top: 10px;
+    transform: translateY(-10px);
 }
 .nav{
     position:fixed;
@@ -137,11 +148,19 @@
     }
 }
 
+@media screen and (min-width:1200px) and (max-height:852px){
+    #line-ver{
+        height: 65vh;
+
+    }
+}
+
+
 @media screen and (max-width:1199px){
     #home .s-m{
         display: none;
     }
-    #line-ver, #line-hor{
+    #line-ver, #line-hor, #nav-linkedin, #nav-github {
         display: none;
     }
     #logo{

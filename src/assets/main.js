@@ -30,6 +30,8 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById("nav-skills").style["color"]="#7a2828";
           document.getElementById("nav-projects").style["color"]="#7a2828";
           document.getElementById("nav-contact").style["color"]="#7a2828";
+          document.getElementById("nav-linkedin").style["color"]="#7a2828";
+          document.getElementById("nav-github").style["color"]="#7a2828";
           document.getElementById("line-hor").style["border-top"]="2px solid #7a2828";
           document.getElementById("line-ver").style["border-right"]="2px solid #7a2828";
           document.getElementById("logo").style["background-image"]='url("assets/img/logo2.png")';
@@ -43,6 +45,8 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById("line-hor").style["border-top"]="2px solid #fff";
           document.getElementById("line-ver").style["border-right"]="2px solid #fff";
           document.getElementById("logo").style["background-image"]='url("assets/img/logo.png")';
+          document.getElementById("nav-linkedin").style["color"]="#fff";
+          document.getElementById("nav-github").style["color"]="#fff";
           
         }
         else if(index == 3 && nextIndex== 1 && direction == 'up'){
@@ -54,6 +58,8 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById("line-hor").style["border-top"]="2px solid #fff";
           document.getElementById("line-ver").style["border-right"]="2px solid #fff";
           document.getElementById("logo").style["background-image"]='url("assets/img/logo.png")';
+          document.getElementById("nav-linkedin").style["color"]="#fff";
+          document.getElementById("nav-github").style["color"]="#fff";
         }
         else if(index == 4 && nextIndex== 1 && direction == 'up'){
           document.getElementById("nav-home").style["color"]="#fff";
@@ -64,6 +70,8 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById("line-hor").style["border-top"]="2px solid #fff";
           document.getElementById("line-ver").style["border-right"]="2px solid #fff";
           document.getElementById("logo").style["background-image"]='url("assets/img/logo.png")';
+          document.getElementById("nav-linkedin").style["color"]="#fff";
+          document.getElementById("nav-github").style["color"]="#fff";
         }
         else if(index == 5 && nextIndex== 1 && direction == 'up'){
           document.getElementById("nav-home").style["color"]="#fff";
@@ -74,6 +82,8 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById("line-hor").style["border-top"]="2px solid #fff";
           document.getElementById("line-ver").style["border-right"]="2px solid #fff";
           document.getElementById("logo").style["background-image"]='url("assets/img/logo.png")';
+          document.getElementById("nav-linkedin").style["color"]="#fff";
+          document.getElementById("nav-github").style["color"]="#fff";
         }
       }
 
