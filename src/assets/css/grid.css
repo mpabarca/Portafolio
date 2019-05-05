@@ -18,7 +18,11 @@ body{
     height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
-
+.row-pure {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 [class*="col-"] {
     min-height: 7px;
     float: left;

@@ -22,6 +22,8 @@
         <link rel="stylesheet" type="text/css" href="assets/css/jquery.pagepiling.css" />
         <!-- Jquery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <!-- Animate css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/mobile.css">
         <link rel="stylesheet" href="assets/css/navbar.css">
@@ -36,19 +38,21 @@
                 <i></i>
                 <i></i>
             </label>
-            
-            <div class="nav-wrap">
-                <div class="logo"><img src=""></div>
-                
-                <ul id="myMenu">
-                    <li data-menuanchor="firstPage" class="active"><a id="nav-home" class= "cool-link" href="#firstPage">INICIO</a></li>
-                    <li data-menuanchor="secondPage"><a id="nav-about" class= "cool-link" href="#secondPage">SOBRE MI</a></li>
-                    <li data-menuanchor="thirdPage"><a id="nav-skills" class= "cool-link" href="#thirdPage">HABILIDADES</a></li>
-                    <li data-menuanchor="fourthPage"><a id="nav-projects" class= "cool-link" href="#fourthPage">PROJECTOS</a></li>
-                    <li data-menuanchor="fifthPage"><a id="nav-contact" class= "cool-link" href="#fifthPage">CONTACTO</a></li>
-                </ul>
+            <div class="row">
+                <div class="nav-wrap">
+                    <ul id="myMenu">
+                        <li data-menuanchor="firstPage" class="active"><a id="nav-home" class= "cool-link" href="#firstPage">INICIO</a></li>
+                        <li data-menuanchor="secondPage"><a id="nav-about" class= "cool-link" href="#secondPage">SOBRE MI</a></li>
+                        <li data-menuanchor="thirdPage"><a id="nav-skills" class= "cool-link" href="#thirdPage">HABILIDADES</a></li>
+                        <li data-menuanchor="fourthPage"><a id="nav-projects" class= "cool-link" href="#fourthPage">PROJECTOS</a></li>
+                        <li data-menuanchor="fifthPage"><a id="nav-contact" class= "cool-link" href="#fifthPage">CONTACTO</a></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col m10 l10" id="line-hor"></div>
+                    <div class="col" id="logo"></div>
+                </div>
             </div>
-            <div id="line-hor"></div>
             <div id="line-ver"></div>
         </div>
             
@@ -60,7 +64,7 @@
                         <div class="home-element" id="home-iam">Yo soy</div>
                         <div><img class="home-element" id="img-name" src="assets/img/name.png"></img></div>
                         <div class="home-element"id="home-rol">Junior Front-End development</div>
-                        <a href="#contact"><button class="home-element" id="home-button">CONTÁCTAME  <i id="home-icon" class="far fa-envelope"></i></button></a>
+                        <button class="home-element" id="home-button"><a id="home-button-a" href="#fifthPage">CONTÁCTAME  <i id="home-icon" class="far fa-envelope"></i></a></button>
                     </div>
                     
                     <div id="home-links" class="col-1">
