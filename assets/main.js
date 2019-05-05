@@ -7,11 +7,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
   $(function() 
   {
-      $("#home-button").mouseenter(function(event) {
+      $("#nav-linkedin").mouseenter(function(event) {
           $(this).addClass("animated bounceIn");
       });
       
-      $("#home-button").on("webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd", function(event) {
+      $("#nav-linkedin").on("webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd", function(event) {
+          $(this).removeClass("animated bounceIn");
+      });
+  });
+  $(function() 
+  {
+      $("#nav-github").mouseenter(function(event) {
+          $(this).addClass("animated bounceIn");
+      });
+      
+      $("#nav-github").on("webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd", function(event) {
           $(this).removeClass("animated bounceIn");
       });
   });
