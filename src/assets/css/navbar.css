@@ -26,7 +26,6 @@
     height: 75vh;
     float: right;
     margin-right: 50px;
-    transform: translateY(-20px);
     border-right: 2px solid #fff;
 }
 #links{
@@ -37,8 +36,7 @@
 #links a{
     color: #fff;
     transition: .4s;
-    padding-top: 10px;
-    transform: translateY(-10px);
+    margin-top: 20px;
 }
 .nav{
     position:fixed;
@@ -151,7 +149,9 @@
 @media screen and (min-width:1200px) and (max-height:852px){
     #line-ver{
         height: 65vh;
-
+    }
+    #links a{
+        margin-top: 10px;
     }
 }
 
@@ -160,13 +160,8 @@
     #home .s-m{
         display: none;
     }
-    #line-ver, #line-hor, #nav-linkedin, #nav-github {
+    #line-ver, #line-hor, #nav-linkedin, #nav-github, #logo {
         display: none;
-    }
-    #logo{
-        padding:0;
-        float: left;
-
     }
     .nav-wrap{
         position:fixed;
