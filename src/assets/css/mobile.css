@@ -94,9 +94,9 @@
         font-size: 25px;
     }
     #img-about1{
-        width: 80%;
+        width: 70%;
         height: auto;
-        transform: translateX(-12%) ;
+        transform: translateX(-4%) ;
     }
     #skills-content{
         transform: translateY(-10%);
