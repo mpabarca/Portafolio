@@ -20,7 +20,7 @@
 }
 
 /* HOME */
-#home{
+#home, #contact{
     background: radial-gradient(circle cover, #7a2828, #2E0E19);
     background: -webkit-radial-gradient(circle cover, #7a2828, #2E0E19);
     background: -moz-radial-gradient(circle cover, #7a2828, #2E0E19);
@@ -171,7 +171,6 @@
     transform: translateY(-100px);
 }
 /* PROJECTS */
-
 #projects-mobile{
     display: none;
 }
@@ -249,8 +248,9 @@
 
 
 /* CONTACT */
+
 #contact-tittle{
-    color: #7a2828;
+    color: #fff;
     font-size: 400%;
     font-family: 'Merriweather', serif;
     font-weight: 900;
@@ -259,13 +259,18 @@
 #contact-text{
     margin-top: 15%;
 }
-#contact-email{
-    margin-top: 8%;
-    margin-left: 5%;
-    margin-bottom: 8%;
-    font-size: 200%;
+#contact .s-m{
+    transform: translateY(-20px);
 }
 #contact .s-m a{
-    font-size: 250%;
     margin-left: 5%;
+}
+#github, #linkedin{
+    width: 80px;
+    height: 80px;
+}
+#email{
+    transform: translateY(10px);
+    height: 100px;
+    width: auto;
 }

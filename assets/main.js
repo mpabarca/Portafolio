@@ -25,6 +25,36 @@ document.addEventListener('DOMContentLoaded', function() {
           $(this).removeClass("animated bounceIn");
       });
   });
+  $(function() 
+  {
+      $("#linkedin").mouseenter(function(event) {
+          $(this).addClass("animated bounceIn");
+      });
+      
+      $("#linkedin").on("webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd", function(event) {
+          $(this).removeClass("animated bounceIn");
+      });
+  });
+  $(function() 
+  {
+      $("#github").mouseenter(function(event) {
+          $(this).addClass("animated bounceIn");
+      });
+      
+      $("#github").on("webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd", function(event) {
+          $(this).removeClass("animated bounceIn");
+      });
+  });
+  $(function() 
+  {
+      $("#email").mouseenter(function(event) {
+          $(this).addClass("animated bounceIn");
+      });
+      
+      $("#email").on("webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd", function(event) {
+          $(this).removeClass("animated bounceIn");
+      });
+  });
 
   $(document).ready(function() {
     $('#pagepiling').pagepiling({
@@ -34,7 +64,9 @@ document.addEventListener('DOMContentLoaded', function() {
       onLeave: function(index, nextIndex, direction){
         //after leaving section 2
         var widthWindow= window.innerWidth;
-        if(index == 1 && direction =='down'){
+        if((index == 1 && direction =='down'&& nextIndex!=5)
+            ||(index == 5 && direction =='up'&& nextIndex!=1))
+            {
           document.getElementById("nav-home").style["color"]="#7a2828";
           document.getElementById("nav-about").style["color"]="#7a2828";
           document.getElementById("nav-skills").style["color"]="#7a2828";
@@ -51,7 +83,8 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById("three-button").style["background"]="#7a2828";
           }
         }
-        else if(index == 2 && nextIndex== 1 && direction == 'up'){
+        else if((index == 2 && nextIndex== 1 && direction == 'up')
+            ||(index == 2 && nextIndex== 5 && direction == 'down')){
           document.getElementById("nav-home").style["color"]="#fff";
           document.getElementById("nav-about").style["color"]="#fff";
           document.getElementById("nav-skills").style["color"]="#fff";
@@ -69,7 +102,8 @@ document.addEventListener('DOMContentLoaded', function() {
           }
           
         }
-        else if(index == 3 && nextIndex== 1 && direction == 'up'){
+        else if((index == 3 && nextIndex== 1 && direction == 'up')
+            ||(index == 3 && nextIndex== 5 && direction == 'down')){
           document.getElementById("nav-home").style["color"]="#fff";
           document.getElementById("nav-about").style["color"]="#fff";
           document.getElementById("nav-skills").style["color"]="#fff";
@@ -86,7 +120,8 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById("three-button").style["background"]="#fff";
           }
         }
-        else if(index == 4 && nextIndex== 1 && direction == 'up'){
+        else if((index == 4 && nextIndex== 1 && direction == 'up')
+            ||(index == 4 && nextIndex== 5 && direction == 'down')){
           document.getElementById("nav-home").style["color"]="#fff";
           document.getElementById("nav-about").style["color"]="#fff";
           document.getElementById("nav-skills").style["color"]="#fff";
@@ -103,7 +138,8 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById("three-button").style["background"]="#fff";
           }
         }
-        else if(index == 5 && nextIndex== 1 && direction == 'up'){
+        else if((index == 5 && nextIndex== 1 && direction == 'up')
+            ||(index == 1 && nextIndex== 5 && direction == 'down')){
           document.getElementById("nav-home").style["color"]="#fff";
           document.getElementById("nav-about").style["color"]="#fff";
           document.getElementById("nav-skills").style["color"]="#fff";
