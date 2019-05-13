@@ -1,8 +1,5 @@
 /* Mobile */
 @media only screen and (max-width:768px){
-    .down, .section-home, .up{
-        bottom: 45px;
-    }
     /* Home */
     #home-iam{
         transform: translateY(-80%);
@@ -82,7 +79,7 @@
 @media only screen and (min-width:1500px){
     .container{
         margin: 0%;
-        padding-left: 10%;
+        padding-left: 5%;
     }
     #about,#skills,#projects{
         max-width: 1500px;
@@ -91,7 +88,7 @@
         top: 10%;
     }
     .tittle{
-        font-size: 700%;
+        font-size: 500%;
     }
     .text{
         font-size: 25px;
@@ -108,16 +105,19 @@
 }
 @media only screen and (min-width:1700px){
     .container{
-        padding-left: 20%;
+        padding-left: 10%;
     }
     #about,#skills,#projects{
         max-width: 1700px;
     }
     #img-about1{
-        transform: translateX(-20%) ;
+        transform: translateX(-10%) ;
     }
     #skills-content{
-        transform: translateY(-10%) translateX(-10%);
+        transform: translateY(-10%);
+    }
+    #about-text{
+        transform: translateY(15%);
     }
 
       
