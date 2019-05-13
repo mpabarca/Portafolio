@@ -67,6 +67,26 @@
         padding: 0px;
         padding-bottom: 5px;
     }
+    /* Contact */
+    #links1{
+        display: none;
+    }
+    #links2{
+        display: block;
+        margin-left: 15%;
+    }
+    #github, #linkedin{
+        width: 60px;
+        height: 60px;
+    }
+    #email{
+        transform: translateY(10px);
+        height: 80px;
+        width: auto;
+    }
+    #contact-tittle{
+        font-size: 300%;
+    }
 }
 
 /* Tablets */
