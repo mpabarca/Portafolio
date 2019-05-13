@@ -45,16 +45,6 @@ document.addEventListener('DOMContentLoaded', function() {
           $(this).removeClass("animated bounceIn");
       });
   });
-  $(function() 
-  {
-      $("#email").mouseenter(function(event) {
-          $(this).addClass("animated bounceIn");
-      });
-      
-      $("#email").on("webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd", function(event) {
-          $(this).removeClass("animated bounceIn");
-      });
-  });
 
   $(document).ready(function() {
     $('#pagepiling').pagepiling({
