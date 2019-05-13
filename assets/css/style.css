@@ -16,11 +16,14 @@
     padding-right: 8%;
     height: 100%;
     overflow: hidden;
+    max-width: 100%;
+}
+#about,#skills,#projects{
     max-width: 1500px;
 }
 
 /* HOME */
-#home, #contact{
+#home{
     background: radial-gradient(circle cover, #7a2828, #2E0E19);
     background: -webkit-radial-gradient(circle cover, #7a2828, #2E0E19);
     background: -moz-radial-gradient(circle cover, #7a2828, #2E0E19);
@@ -248,7 +251,11 @@
 
 
 /* CONTACT */
-
+#contact{
+    background: radial-gradient(circle cover, #7a2828, #2E0E19);
+    background: -webkit-radial-gradient(circle cover, #7a2828, #2E0E19);
+    background: -moz-radial-gradient(circle cover, #7a2828, #2E0E19);
+}
 #contact-tittle{
     color: #fff;
     font-size: 400%;
@@ -258,6 +265,7 @@
 }
 #contact-text{
     margin-top: 15%;
+    margin-left: 10%;
 }
 #contact .s-m{
     transform: translateY(-20px);
