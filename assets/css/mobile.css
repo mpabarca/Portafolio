@@ -68,24 +68,33 @@
         padding-bottom: 5px;
     }
     /* Contact */
+    #contact-container{
+        margin: 0 auto;
+        position: absolute;              
+        top: 50%;                   
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
     #links1{
         display: none;
     }
     #links2{
         display: block;
-        margin-left: 15%;
     }
     #github, #linkedin{
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
     #email{
         transform: translateY(10px);
-        height: 80px;
+        height: 65px;
         width: auto;
     }
     #contact-tittle{
         font-size: 300%;
+    }
+    #contact-text{
+        margin:0;
     }
 }
 
