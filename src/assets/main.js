@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
           }else{
             $('#pp-nav').addClass('custom');
           }
-        }
+        },
         onLeave: function(index, nextIndex, direction){
           //after leaving section 2
           var widthWindow= window.innerWidth;
