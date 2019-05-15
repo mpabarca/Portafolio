@@ -56,13 +56,20 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   });
 
-  var widthWindow= window.innerWidth;
-
     $(document).ready(function() {
       $('#pagepiling').pagepiling({
         anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
         menu: '#myMenu',
-        navigation: true,
+        afterRender: function(){
+          $('#pp-nav').addClass('custom');
+        },
+        afterLoad: function(anchorLink, index){
+          if(index>1){
+            $('#pp-nav').removeClass('custom');
+          }else{
+            $('#pp-nav').addClass('custom');
+          }
+        }
         onLeave: function(index, nextIndex, direction){
           //after leaving section 2
           var widthWindow= window.innerWidth;
