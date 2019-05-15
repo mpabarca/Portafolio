@@ -62,6 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
       $('#pagepiling').pagepiling({
         anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
         menu: '#myMenu',
+        navigation: true,
         onLeave: function(index, nextIndex, direction){
           //after leaving section 2
           var widthWindow= window.innerWidth;
