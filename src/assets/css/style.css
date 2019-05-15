@@ -23,7 +23,7 @@
 }
 #pagepiling{
     overflow: hidden;
-    touch-action: none;
+    touch-action: block;
 }
 
 /* HOME */
