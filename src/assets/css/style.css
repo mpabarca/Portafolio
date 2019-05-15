@@ -21,6 +21,10 @@
 #about,#skills,#projects{
     max-width: 1500px;
 }
+#pagepiling{
+    overflow: hidden;
+    touch-action: none;
+}
 
 /* HOME */
 #home{
