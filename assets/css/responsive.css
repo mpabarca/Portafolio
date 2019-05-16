@@ -1,21 +1,6 @@
 /* Mobile */
 @media only screen and (max-width:768px){
-    .up, .down{
-        display: block;
-    }
-    .down, .up{
-        position: absolute;
-        left: 45%;
-        font-size: 30px;
-    }
-    .down{
-        color:#7a2828;
-        bottom: 0;
-    }
-    .up{
-        color:#7a2828;
-        top: 15px;
-    }
+    
     /* Home */
     #home-iam{
         transform: translateY(-80%);
