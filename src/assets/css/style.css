@@ -21,6 +21,9 @@
 #about,#skills,#projects{
     max-width: 1500px;
 }
+.down, .up{
+    display: none;
+}
 
 /* HOME */
 #home{
