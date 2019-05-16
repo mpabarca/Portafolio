@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     window.M.Carousel.init(elems, {});
   });
 
+
+
   $(function() 
   {
       $("#nav-linkedin").mouseenter(function(event) {
@@ -55,6 +57,8 @@ document.addEventListener('DOMContentLoaded', function() {
           $(this).removeClass("animated bounceIn");
       });
   });
+
+
 
     $(document).ready(function() {
       $('#pagepiling').pagepiling({
