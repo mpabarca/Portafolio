@@ -228,22 +228,22 @@
     left: 0;
     bottom: -6px;
 }
-#projects p{
+.projects p{
     text-align: justify;
     font-size: 14px;
 }
-#projects .s-m{
+.projects .s-m{
     text-align: center;
     margin-top:20px;
 }
-#projects .s-m a{
+.projects .s-m a{
     text-decoration: none;
     font-size: 20px;
     color: #333;
     padding: 0 14px;
     transition: .4s;
 }
-#projects .s-m a:hover{
+.projects .s-m a:hover{
     color:#7a2828;
     transform: translateY(-10px);
 }
