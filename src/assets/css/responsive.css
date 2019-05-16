@@ -55,12 +55,6 @@
         transform: translateX(-30px);
     }
     /* Projects */
-    #projects-mobile{
-        display: block;
-    }
-    #projects-cards{
-        display: none
-    }
     .info-section{
         padding: 0px;
         padding-bottom: 5px;
@@ -108,7 +102,7 @@
         margin: 0%;
         padding-left: 5%;
     }
-    #about,#skills,#projects{
+    #about,#skills,.projects{
         max-width: 1500px;
     }
     #about{
@@ -138,7 +132,7 @@
     .container{
         padding-left: 10%;
     }
-    #about,#skills,#projects{
+    #about,#skills,.projects{
         max-width: 1700px;
     }
     #img-about1{
