@@ -55,10 +55,7 @@
         transform: translateX(-30px);
     }
     /* Projects */
-    .info-section{
-        padding: 0px;
-        padding-bottom: 5px;
-    }
+    
     /* Contact */
     #contact-container{
         margin: 0 auto;
@@ -102,7 +99,7 @@
         margin: 0%;
         padding-left: 5%;
     }
-    #about,#skills,.projects{
+    #about,#skills{
         max-width: 1500px;
     }
     #about{
@@ -132,7 +129,7 @@
     .container{
         padding-left: 10%;
     }
-    #about,#skills,.projects{
+    #about,#skills{
         max-width: 1700px;
     }
     #img-about1{
