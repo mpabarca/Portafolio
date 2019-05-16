@@ -61,7 +61,6 @@ document.addEventListener('DOMContentLoaded', function() {
         anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
         menu: '#myMenu',
         navigation: true,
-        touchSensitivity:10,
         onLeave: function(index, nextIndex, direction){
           //after leaving section 2
           var widthWindow= window.innerWidth;

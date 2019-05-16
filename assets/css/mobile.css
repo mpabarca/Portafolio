@@ -14,9 +14,6 @@
     #home-button{
         margin-top: 5%;
     }
-    #home-iam, #home-rol, #home-button{
-        margin-left: 5%;
-    }
     /* About */
     #about-content #img-about2{
         display: block;
