@@ -22,6 +22,9 @@
 #about,#skills{
     max-width: 1500px;
 }
+.icon-container{
+    display: none;
+}
 
 /* HOME */
 #home{

@@ -2,6 +2,10 @@
 @media only screen and (max-width:768px){
     
     /* Home */
+    #about{
+        margin-top: 1%;
+        transform: translateY(40px);
+    }
     #home-iam{
         transform: translateY(-80%);
     }
@@ -16,21 +20,39 @@
         margin-top: 5%;
     }
     /* About */
+    .icon-container{
+        display: block;
+    }
+    .icon-contact{
+        display: flex;
+        flex-direction: column;
+        float: right;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        font-size: 150%;
+        color: #7a2828;
+
+        
+    }
     #about-content #img-about2{
         display: block;
         width: 60%;
         height: auto;
-        margin-top: 15%;
+        margin-top: 5%;
         margin-left: 70px;
     }
     #img-about1{
         display: none;
     }
     #about #about-content{
-        width: 90%;
+        width: 100%;
     }
-    #about, #skills{
+     #skills{
         top: 2%;
+    }
+    .icon-group{
+        font-size:80%
     }
     .tittle{
         font-size: 300%;
