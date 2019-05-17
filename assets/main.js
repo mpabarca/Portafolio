@@ -59,11 +59,6 @@ $(function()
       });
   });
   
-  $(function(){
-      document.getElementById('home-iam').innerHTML=$(window).width()+' , '+$(window).height();
-  })
-
-
 
 
     $(document).ready(function() {
