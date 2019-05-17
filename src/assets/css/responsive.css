@@ -1,6 +1,8 @@
 /* Mobile */
 @media only screen and (max-width:768px){
-    
+    #nav-contact{
+        display: none;
+    }
     /* Home */
     #about{
         margin-top: 1%;
