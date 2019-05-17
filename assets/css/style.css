@@ -80,13 +80,6 @@
     width: 70%;
     height: auto;
 }
-#home-button-a:hover{
-    color:#fff;
-}
-#home-button:hover{
-    background: #AD0E46;
-    color:#fff;
-}
 
 #home .s-m{
     display: flex;
