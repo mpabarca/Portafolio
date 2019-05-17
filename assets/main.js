@@ -73,11 +73,6 @@
             document.getElementById("line-hor").style["border-top"]="2px solid #7a2828";
             document.getElementById("line-ver").style["border-right"]="2px solid #7a2828";
             document.getElementById("logo").style["background-image"]='url("assets/img/logo2.png")';
-            if (widthWindow < 1199){
-              document.getElementById("one-button").style["background"]="#7a2828";
-              document.getElementById("two-button").style["background"]="#7a2828";
-              document.getElementById("three-button").style["background"]="#7a2828";
-            }
           }
           else if(
                 (index == 2 && nextIndex== 1 && direction == 'up')
@@ -104,11 +99,6 @@
             document.getElementById("logo").style["background-image"]='url("assets/img/logo.png")';
             document.getElementById("nav-linkedin").style["color"]="#fff";
             document.getElementById("nav-github").style["color"]="#fff";
-            if (widthWindow < 1199){
-              document.getElementById("one-button").style["background"]="#fff";
-              document.getElementById("two-button").style["background"]="#fff";
-              document.getElementById("three-button").style["background"]="#fff";
-            }
           }
         }
     });
