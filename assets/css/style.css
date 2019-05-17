@@ -186,16 +186,16 @@
 .card-middle{
     top: 65vh;
     margin-left: 105vh;
-    background: #fff;
     position: absolute;
     z-index: 100000;
     width: 300px;
-    box-shadow: 0 0 10px #00000070;
     height: 200px;
+    box-shadow: 0 0 10px #00000070;
+    background: #fff;
 }
 .info-section{
     padding: 40px;
-    padding-top: 0;
+    padding-top: 10px;
     padding-bottom: 1%;
     color: #333;
 }
