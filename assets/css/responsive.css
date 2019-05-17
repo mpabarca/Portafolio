@@ -3,6 +3,9 @@
     #nav-contact{
         display: none;
     }
+    #myMenu{
+        margin-top: 10px;
+    }
     /* Home */
     #about{
         margin-top: 1%;
@@ -39,7 +42,7 @@
     }
     #about-content #img-about2{
         display: block;
-        width: 60%;
+        width: 50%;
         height: auto;
         margin-top: 5%;
         margin-left: 70px;
@@ -54,7 +57,7 @@
         top: 2%;
     }
     .icon-group{
-        font-size:80%
+        font-size:70%
     }
     .tittle{
         font-size: 300%;
@@ -72,19 +75,16 @@
     #skills .col-6{
         width: 100%;
     }
-    #skillsGroupIcon{
-        margin-top: 15%;
-    }
     .icon-group{
         transform: translateX(-30px);
     }
     /* Projects */
     .projects img{
+        position: static;
         top: 15vh;
         margin-left: 5vw;
         width: 80vw;
         height: 30vh;
-        position: static;
     }
     .card-middle{
         position: static;

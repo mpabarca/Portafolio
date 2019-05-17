@@ -131,7 +131,6 @@
         width:50%;
     }
 }
-
 @media screen and (min-width:1200px) and (max-height:852px){
     #line-ver{
         height: 65vh;
@@ -140,7 +139,6 @@
         margin-top: 10px;
     }
 }
-
 
 @media screen and (max-width:1199px){
     #home .s-m{

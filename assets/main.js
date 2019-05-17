@@ -49,6 +49,7 @@
           $(this).removeClass("animated bounceIn");
       });
   });
+  
   $(function() 
   {
       document.getElementById("home-iam").innerHTML= $(window).height() + ' , ' +$(window).width()
